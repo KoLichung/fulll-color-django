@@ -1,0 +1,79 @@
+{% extends 'web/base.html' %} {% block content %}
+{% load static %}
+
+<div class="news-bg">
+    <div class="mx-auto banner-filter">
+      <div class="py-8">
+        <div class="about-title">
+            最新消息
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="main-bg py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3 mx-auto">
+                <div class="news-side-bar">
+                    <div class="news-side-head">訊息與公告</div>
+                    <div class="news-side-body">
+                        <ul>
+                            <li class="px-3 py-2"><a href="">2023</a> </li>
+                            <hr class="py-0 my-0 mx-3">
+                            <li class="px-3 py-2">2022</li>
+                            <hr class="py-0 my-0 mx-3">
+                            <li class="px-3 py-2">2021</li>
+                            <hr class="py-0 my-0 mx-3">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 col-lg-9">
+              <div class="table-responsive scrollbar mx-md-3 mt-3">
+                <table class="table table-hover border-dark">   
+                  <thead>
+                    <tr class="text-dark">
+                      <th scope="col">日期</th>
+                      <th scope="col">標題</th>
+                      <th class="text-end" scope="col">連結</th>
+                    </tr>
+                  </thead>    
+                  <tbody class="text-dark">
+                    <tr>
+                        <td>2023-04-23</td>
+                        <td class="text-start">xxx飯店使用波利壁布</td>
+                        <td class="text-end">
+                            <a class="btn p-0 ms-2" type="button">
+                                <span class="text-500 fas fa-external-link-alt"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>2023-04-23</td>
+                      <td class="text-start">xxx飯店使用波利壁布</td>
+                      <td class="text-end">
+                        <a class="btn p-0 ms-2" type="button">
+                          <span class="text-500 fas fa-external-link-alt"></span>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2023-04-23</td>
+                      <td class="text-start">xxx飯店使用波利壁布</td>
+                      <td class="text-end">
+                        <a class="btn p-0 ms-2" type="button">
+                          <span class="text-500 fas fa-external-link-alt"></span>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,312 @@
+/* -------------------------------------------------------------------------- */
+/*                                chijia Button                               */
+/* -------------------------------------------------------------------------- */
+/* prettier-ignore */
+/*# sourceMappingURL=user.css.map */
+
+:root{
+  font-size: 18px;
+  --black: #2D2D2D;
+  --second-black: #444;
+  --blue: #2F6DB2;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+p{
+  font-size: 1rem;
+  text-align: left;
+  color: var(--black);
+}
+
+.nav-bg{
+  background-color: var(--black);
+}
+
+.text-shadow{
+  text-shadow: 1px 1px #444
+}
+
+.work-partner-logo{
+  /* filter: grayscale(100%); */
+  width: 60px;
+}
+
+.work-partner-bg{
+  background-color: white;
+  height: 100%;
+}
+
+
+
+.service-img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  max-width: 540px;
+  max-height: 290px;
+  height: auto;
+  margin-top: 0.2rem;
+}
+
+.service-item-title{
+  font-family: 'Noto Sans CJK TC';
+  font-style: normal;
+  font-weight: 900;
+  color: var(--blue);
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.banner-green-fac{
+  background-image: url('/static/web/assets/img/index/green-fac.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-filter {
+  /* background-color: black;
+  opacity: 0.4; */
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+}
+
+.banner-text{
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.blue-button{
+  background-color: var(--blue);
+  color: white;
+  font-size: 1rem;
+  padding: 0.8rem 8rem;
+  border-radius: 2px;
+}
+
+.banner-products{
+  background-image: url('/static/web/assets/img/index/products.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.product-box {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.product-box img {
+  display: block;
+  height: auto;
+  width: 100%;
+  /* max-width: 540px;
+  max-height: 290px; */
+  object-fit: cover;
+}
+  
+.product-text {  
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+  padding: 0.75em 1em;
+  font-weight: 700;
+  z-index: 2;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,.3);
+  transition: opacity .3s ease-in-out;
+}
+
+
+.news-box{
+  background-color: #2E4454;
+  text-align: center;
+}
+
+.news-title{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.banner-green{
+  background-image: url('/static/web/assets/img/index/green.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-green-text{
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-bg{
+  background-color: var(--black);
+  height: auto;
+  padding: 2rem 0;
+}
+
+.footer-title{
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.footer-text{
+  text-align: left;
+
+}
+
+.outlined-btn{
+  display: block;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px 0 0 0;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+}
+
+.outlined-btn:hover{
+  cursor: pointer;
+}
+
+
+/* ==================================================================
+======================  about / values / team  ======================
+===================================================================== */
+
+.about-bg{
+  background-image: url('/static/web/assets/img/about_bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.about-title{
+  font-size: 2rem;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+
+.custom-hr{
+  border-top: 3px solid white
+}
+
+.about-text{
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main-bg{
+  background-image: url('/static/web/assets/img/page_bg.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.inner-nav-item{
+  color: var(--black);
+  
+}
+
+.inner-nav-item-on, .inner-nav-item:hover{
+  color: var(--black);
+  /* border-bottom: 1px solid brown; */
+  box-shadow:  0 3px 0 0 brown; 
+  display: block;
+}
+
+.about-section-title{
+  font-weight: 900;
+  color: var(--black);
+}
+
+.img-box{
+  background-image: url('/static/web/assets/img/concept/concept1.png');
+}
+
+.banner-values{
+  background-image: url('/static/web/assets/img/values/values5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-team{
+  background-image: url('/static/web/assets/img/team/team1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ==================================================================
+==============================  news  ===============================
+===================================================================== */
+
+.news-bg{
+  background-image: url('/static/web/assets/img/news_bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.news-side-head{
+  background-color: var(--black);
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.news-side-body{
+  background-color: white;
+  color: var(--black);
+  padding: 0.5rem 0;
+  
+}
+
+.news-side-body ul {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.news-side-body ul li a,  
+.news-side-body ul li a:hover{
+  color: var(--black);
+
+}
+
+/* ==================================================================
+==============================  home deco  ==========================
+===================================================================== */
+
+.products-bg{
+  background-image: url('/static/web/assets/img/products_bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+/* ==================================================================
+=========================  wall covering  ===========================
+===================================================================== */
+
+.wall-covering-bg{
+  background-image: url('/static/web/assets/img/wall_covering_bg.png');
+  background-position: center;
+  background-size: cover;
+}

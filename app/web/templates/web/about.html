@@ -1,0 +1,130 @@
+{% extends 'web/base.html' %} {% block content %}
+{% load static %}
+
+<div class="about-bg">
+    <div class="mx-auto banner-filter">
+      <div class="py-8">
+        <div class="about-title">
+            關於富潤家飾布
+        </div>
+        <div class="col-10 col-md-8 mx-auto" style="max-width: 1280px;">
+            <div class="mx-6"><hr class="custom-hr"></div>
+            <div class="about-text mx-md-6">
+                富潤在色彩與設計到紡織成品的掌握，累計超過 30 年的專業經驗，以完整的設計師團隊，完成您對空間設計的構想。
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <div class="main-bg">
+
+    <nav class="bg-white  py-2">
+      <div class="d-flex justify-content-evenly mx-auto" style="max-width: 1280px;">
+        <a class="d-blcok inner-nav-item inner-nav-item-on" href="{% url 'about' %}"> 公司簡介(成長故事)</a>
+        <a class="d-blcok inner-nav-item" href="{% url 'values' %}">經營理念</a>
+        <a class="d-blcok inner-nav-item" href="{% url 'team' %}">經營團隊</a>
+      </div>
+    </nav>
+      
+    <div class="container mt-3" style="max-width: 1280px;">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 mt-2 text-center">
+                <img class="img-fluid" src="{% static 'web/assets/img/about/story1.png' %}" alt="">
+            </div>
+            <div class="col-12 col-md-6 mt-2 ">
+                <div class="about-section-title">30 年經驗累積，最高品質印花服務</div>
+                <p>
+                    富潤公司成立於1991年，為亞洲地區最專業之無水印花染色生產工廠，採用一貫化生產作業流程，始於圖稿的修圖、分色、拆版、數位打樣，到版材加工、電子雕刻、精密印花、紙轉印、熱昇華紡織品轉印到包裝出貨，所有生產流程皆於富潤廠內完成，且每一個生產細節皆經過嚴格把關
+                </p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+
+            <div class="col-12 col-md-6 order-2 order-md-1 mt-2">
+                <div class="about-section-title">綠能環保，業界首選</div>
+                <p>
+                本公司也十分重視環保，除了通過政府的無汙染生產認證，於2009年起申請瑞士bluesign無污染工業認證，不管是水質汙染指標還是空氣汙染指標，富潤皆是每年符合標準的綠色工廠。
+                </p>
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2 mt-2 text-center">
+                <img class="img-fluid" src="{% static 'web/assets/img/about/story2.png' %}" alt="">
+            </div>
+
+        </div>
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 mt-2 text-center">
+                <img class="img-fluid" src="{% static 'web/assets/img/about/story3.png' %}" alt="">
+
+            </div>
+            <div class="col-12 col-md-6 mt-2">
+                <div class="about-section-title">注重設計色彩，自有設計師團隊</div>
+                <p>富潤除了跟國際知名品牌合作外，今年更以「讓色彩與設計去世界旅行」的概念，完成便利輕薄，能寄送到各國協助生產的轉印紙，未來也希望藉由「設計與實務密切配合」創造更高的價值，故成立「設聚數」募集來自世界的好設計，讓每個人都能成為富潤的合作夥伴。</p>
+            </div>
+        </div>
+        <div class="my-4 text-center text-center">
+            <img class="img-fluid" src="{% static 'web/assets/img/about/story4.png' %}" alt="">
+        </div>
+        <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/s2ZJWOr73rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div>
+            <div class="about-section-title mt-4">成長歷史</div>
+            <div class="card-body scrollbar recent-activity-body-height ps-2">
+
+                <div class="row g-3 timeline timeline-dark timeline-past pb-card">
+                    <div class="col-auto ps-4 ms-2">
+                        <div class="ps-2 pt-2">
+                        <h6 class="text-800">2023</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gx-0 pt-2">
+                            <h6 class="text-800">家飾布 Full Color 品牌成立</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3 timeline timeline-dark timeline-past pb-card">
+                    <div class="col-auto ps-4 ms-2">
+                        <div class="ps-2 pt-2">
+                        <h6 class="text-800">2020</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gx-0 pt-2">
+                            <h6 class="text-800">數位化工廠設置</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3 timeline timeline-dark timeline-past pb-card">
+                    <div class="col-auto ps-4 ms-2">
+                        <div class="ps-2 pt-2">
+                        <h6 class="text-800">2018</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gx-0 pt-2">
+                            <h6 class="text-800">幸福空間輕裝修推出，波利壁布發行</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-3 timeline timeline-dark timeline-past pb-card">
+                    <div class="col-auto ps-4 ms-2">
+                        <div class="ps-2 pt-2">
+                        <h6 class="text-800">2017</h6>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gx-0 pt-2">
+                            <h6 class="text-800">台北建材展，推出新型壁布，適合居家、餐廳、飯店等場景應用。贏在地球村節目至公司專訪。</h6>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+        </div>
+    </div>  
+    
+  </div>
+
+{% endblock %}
