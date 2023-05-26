@@ -43,7 +43,9 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'modelCore',
     'user',
-    'web'
+    'web',
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -140,3 +142,5 @@ STATIC_ROOT = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'modelCore.User'
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
