@@ -22,11 +22,11 @@
 <body>
   <!-- nav bar -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark static-top nav-bg" >
+    <nav class="navbar navbar-standard navbar-expand-lg fixed-top navbar-dark" data-navbar-darken-on-scroll="data-navbar-darken-on-scroll">
       <div class="container">
         <a class="navbar-brand" href="{% url 'index' %}">
-          <img src="{% static 'web/assets/img/logo.png' %}" alt="full-color logo" height="36">
-          <span class="text-white">富潤家飾布設計</span>   
+          <img src="{% static 'web/assets/img/logo_a.png' %}" alt="full-color logo" height="45">
+          <!-- <span class="text-white h5">&nbsp富潤家飾布</span>    -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,20 +37,31 @@
               <a class="nav-link" href="{% url 'about' %}">關於富潤</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">轉印服務</a>
+              <a class="nav-link" href="{% url 'tech_service' %}">轉印服務</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://design.full-color.com.tw/" target="_blank">設計圖庫</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{% url 'products' %}">家飾產品</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#">案例分享</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+
+            <!-- <li class="nav-item">
               <a class="nav-link" href="{% url 'news' %}">最新消息</a>
-            </li>
+            </li> -->
+
             <li class="nav-item">
-              <a class="nav-link" href="#">聯絡諮詢</a>
+              <div class="dropdown d-inline-block" style="padding-top: 0.2rem;">
+                <button class="btn btn-sm px-1" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;"><span class="fas fa-globe-americas"></span>&nbsp&nbsp中文</button>
+                <!-- <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Public</a><a class="dropdown-item" href="#">Private</a><a class="dropdown-item" href="#">Draft</a></div> -->
+              </div>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">聯絡諮詢</a>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -62,62 +73,62 @@
 
   <!-- footer -->
   <footer class="footer-bg py-5">
-    <div class="container" style="max-width: 1280px;">
+    <div class="container" style="max-width: 1080px;">
       <div class="row align-items-start">
-        <div class="col-11 col-md-5 text-white text-center order-2 order-md-1 mt-5 mt-md-0 mx-auto">
+        <div class="col-11 col-md-6 text-white text-center order-2 order-md-1 mt-5 mt-md-0 mx-auto">
           <div class="mx-3 text-start">
             <div class="footer-title">
               富潤股份有限公司
             </div>
             <div class="footer-text">
-              TEL：04-22334455<br>
-              EMAIL： xxx@full-color.com.tw<br>
-              地址：彰化縣線西鄉下犁村 xxx xxx
+              TEL：04-7582468<br>
+              EMAIL：candy@full-color.com.tw<br>
+              地址：50742彰化縣線西鄉下犁路101-11號
             </div>
           </div>
           
           <div class="mt-3 ms-3 text-start">
-            <a class="outlined-btn">
+            <a class="outlined-btn" href="https://lin.ee/nLPJrl7" target="_blank">
                 <span class="fab fa-line"></span>
                 LINE官方客服
             </a>
           </div>
 
-          <div class="my-2 ms-3 text-start">
+          <!-- <div class="my-2 ms-3 text-start">
             <a class="outlined-btn">
               <span class="fab fa-facebook-square"></span>
               臉書粉絲團
             </a>
-          </div>
+          </div> -->
         </div>
 
-        <div class="col-12 col-md-7 text-white mx-auto order-1 order-md-2">
+        <div class="col-12 col-md-6 text-white mx-auto order-1 order-md-2">
           <div class="container">
             <div class="row">
-              <div class="col-6 col-md-6 col-lg-3">
+              <!-- <div class="col-6 col-md-6 col-lg-3">
                   <div><b>最新消息</b></div>
-                  <div>案例分享</div>
-              </div>
+                  <div><a href="{% url 'news' %}" style="color: white;">最新消息</a></div>
+              </div> -->
               <div class="col-6 col-md-6 col-lg-3">
                   <div><b>關於富潤</b></div>
-                  <div>富潤成長故事</div>
-                  <div>經營理念</div>
-                  <div>經營團隊</div>
+                  <div><a href="{% url 'about' %}" style="color: white;">成長故事</a></div>
+                  <div><a href="{% url 'values' %}" style="color: white;">經營理念</a></div>
+                  <div><a href="{% url 'news' %}" style="color: white;">經營團隊</a></div>
               </div>
-              <div class="col-6 col-md-6 col-lg-3 mt-3 mt-lg-0">
+              <div class="col-6 col-md-6 col-lg-3">
                   <div><b>轉印服務</b></div>
-                  <div>轉印技術</div>
-                  <div>窗簾代工</div>
-                  <div>設計圖庫</div>
+                  <div><a href="{% url 'tech_service' %}" style="color: white;">轉印技術</a></div>
+                  <!-- <div>窗簾代工</div> -->
+                  <div><a href="http://design.full-color.com.tw/" style="color: white;">設計圖庫</a></div>
               </div>
               <div class="col-6 col-md-6 col-lg-3 mt-3 mt-lg-0">
                   <div><b>產品介紹</b></div>
-                  <div>波利壁布</div>
-                  <div>浴簾</div>
-                  <div>門簾</div>
-                  <div>掛布 / 掛畫</div>
-                  <div>沙發套</div>
-                  <div>桌巾 / 桌條</div>
+                  <div><a href="{% url 'products_wall_covering' %}" style="color: white;">波麗壁布</a></div>
+                  <div><a href="{% url 'products_shower_curtain' %}" style="color: white;">浴簾</a></div>
+                  <!-- <div><a href="{% url 'products_door_curtain' %}" style="color: white;">門簾</a></div> -->
+                  <div><a href="{% url 'products_wall_picture' %}" style="color: white;">掛布/掛畫</a></div>
+                  <div><a href="{% url 'products_cushion' %}" style="color: white;">抱枕</a></div>
+                  <!-- <div><a href="{% url 'products_tablecloth' %}" style="color: white;">桌巾/桌條</a></div> -->
               </div>
             </div>
           </div>

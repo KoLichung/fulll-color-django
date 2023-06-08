@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.urls import reverse
+from ckeditor_uploader.fields import RichTextUploadingField
 
 class UserManager(BaseUserManager):
 
@@ -38,3 +39,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     objects = UserManager()
 
     USERNAME_FIELD = 'phone'
+
+class News(models.Model):
+
+    title = models.CharField(max_length = 255, blank = True, null=True)
+    body = RichTextUploadingField(config_name='news_body', default='')
+    create_date = models.DateField(blank = True, null=True)

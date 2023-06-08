@@ -6,11 +6,17 @@ from django.http import HttpResponse
 def index(request):
     return render(request,'web/index.html')
 
+def tech_service(request):
+    return render(request,'web/tech_service.html')
+
 def about(request):
     return render(request,'web/about.html')
 
 def news(request):
     return render(request,'web/news.html')
+
+def news_detail(request):
+    return render(request,'web/news_detail.html')
 
 def team(request):
     return render(request,'web/team.html')

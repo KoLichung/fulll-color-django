@@ -19,7 +19,7 @@ a:hover{
 p{
   font-size: 1rem;
   text-align: left;
-  color: var(--black);
+  /* color: var(--black); */
 }
 
 .nav-bg{
@@ -30,17 +30,22 @@ p{
   text-shadow: 1px 1px #444
 }
 
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
 .work-partner-logo{
   /* filter: grayscale(100%); */
-  width: 60px;
+  width: 120px;
 }
 
 .work-partner-bg{
   background-color: white;
   height: 100%;
 }
-
-
 
 .service-img{
   display: block;
@@ -201,6 +206,12 @@ p{
   color: white;
   font-weight: 900;
   text-align: center;
+}
+
+.tech-bg{
+  background-image: url('/static/web/assets/img/tech_bg.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .custom-hr{

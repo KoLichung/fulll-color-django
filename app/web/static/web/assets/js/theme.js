@@ -3578,15 +3578,31 @@ var navbarDarkenOnScroll = function navbarDarkenOnScroll() {
         backgroundImage = _window$getComputedSt.backgroundImage;
 
     var transition = 'background-color 0.35s ease';
-    navbar.style.backgroundImage = 'none'; // Change navbar background color on scroll
+    // navbar.style.backgroundImage = 'none'; // Change navbar background color on scroll
+    // window.addEventListener(Events.SCROLL, function () {
+    //   var scrollTop = html.scrollTop;
+    //   var alpha = scrollTop / windowHeight * 2;
+    //   alpha >= 1 && (alpha = 1);
+    //   navbar.style.backgroundColor = "rgba(".concat(colorRgb[0], ", ").concat(colorRgb[1], ", ").concat(colorRgb[2], ", ").concat(alpha, ")");
+    //   navbar.style.backgroundImage = alpha > 0 || utils.hasClass(navbarCollapse, 'show') ? backgroundImage : 'none';
+    // }); // Toggle bg class on window resize
 
-    window.addEventListener(Events.SCROLL, function () {
-      var scrollTop = html.scrollTop;
-      var alpha = scrollTop / windowHeight * 2;
+    // Change navbar background color on scroll
+    let alpha = 0.4;
+    const handleScroll = () => {
+      const { scrollTop } = html;
+      if ((scrollTop / windowHeight) * 2 > 0.5) {
+        alpha = (scrollTop / windowHeight) * 1.8;
+      }
       alpha >= 1 && (alpha = 1);
-      navbar.style.backgroundColor = "rgba(".concat(colorRgb[0], ", ").concat(colorRgb[1], ", ").concat(colorRgb[2], ", ").concat(alpha, ")");
-      navbar.style.backgroundImage = alpha > 0 || utils.hasClass(navbarCollapse, 'show') ? backgroundImage : 'none';
-    }); // Toggle bg class on window resize
+      navbar.style.backgroundColor = `rgba(${colorRgb[0]}, ${colorRgb[1]}, ${colorRgb[2]}, ${alpha})`;
+      navbar.style.backgroundImage =
+        alpha > 0 || utils.hasClass(navbarCollapse, 'show')
+          ? backgroundImage
+          : 'none';
+    };
+    handleScroll();
+    window.addEventListener(Events.SCROLL, handleScroll);
 
     utils.resize(function () {
       var breakPoint = utils.getBreakpoint(navbar);

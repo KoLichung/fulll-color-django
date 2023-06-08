@@ -24,7 +24,11 @@ SECRET_KEY = 'django-insecure-^pxr2pc@d81=s1*hh9t_pcs4^a-pazd_+@lv40nscf7-oh$&4w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '45.32.102.218',
+    '127.0.0.1',
+    'localhost',
+]
 
 ADMINS = (
     ('user0', '0000000000'),
@@ -43,7 +47,9 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'modelCore',
     'user',
-    'web'
+    'web',
+    'ckeditor',
+    'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -140,3 +146,5 @@ STATIC_ROOT = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'modelCore.User'
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
