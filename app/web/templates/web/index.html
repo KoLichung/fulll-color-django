@@ -1,5 +1,6 @@
 {% extends 'web/base.html' %} {% block content %}
 {% load static %}
+{% load i18n %}
 
   <!-- carousel -->
   <div class="carousel slide" id="carouselExampleControls" data-bs-ride="carousel" style="width:100%; height: 500px !important;">
@@ -13,8 +14,12 @@
       <div class="carousel-item active">
         <img class="d-block" style='width: 100%;height: 500px;object-fit: cover;' src="{% static 'web/assets/img/index/intro-bg.png' %}" alt="First slide" />
         <div class="top-left">
-            <h4 style="color: white;">用色彩豐厚生命，<h4>
-            <h4 style="color: white;">用設計感動人心。<h4>
+            <h4 style="color: white;">
+              {% trans "Slogan_1" %}
+            <h4>
+            <h4 style="color: white;">
+              {% trans "Slogan_2" %}
+            <h4>
         </div>
       </div>
       <div class="carousel-item">
@@ -75,10 +80,10 @@
         <div class="col-11 mx-auto d-block d-md-none">
           <div>
             <div class="service-item-title ">
-              彩布印刷的最佳夥伴
+              {% trans "index_intro_1_title" %}
             </div>
             <p style="max-width: 540px;">
-              30 年印刷經驗，精準完成每一次任務。<br>您的信賴是驅使我們不負所託的最大動力。
+              {% trans "index_intro_1_content" %}
             </p>
             <img class="service-img img-fluid mb-3 " src="{% static 'web/assets/img/index/service1.png' %}"> 
           </div>
@@ -89,10 +94,10 @@
           <div class="mx-auto">
             <img class="service-img img-fluid" src="{% static 'web/assets/img/index/service1.png' %}"> 
             <div class="service-item-title ">
-              彩布印刷的最佳夥伴
+              {% trans "index_intro_1_title" %}
             </div>
             <p style="max-width: 540px;">
-              30 年印刷經驗，精準完成每一次任務。<br>您的信賴是驅使我們不負所託的最大動力。
+              {% trans "index_intro_1_content" %}
             </p>
           </div>
         </div>
@@ -100,10 +105,10 @@
         <div class="col-11 col-md-6">
           <div class="mx-auto"> 
             <div class="service-item-title ">
-              自有設計團隊與圖庫
+              {% trans "index_intro_2_title" %}
             </div>
             <p style="max-width: 540px;">
-              為了滿足各種的需求，我們有強大的設計團隊，<br>從設計到生產，讓客戶完成一站式採購。
+              {% trans "index_intro_2_content" %}
             </p>
             <img class="service-img img-fluid" src="{% static 'web/assets/img/index/service2.png' %}">
           </div>
@@ -117,17 +122,16 @@
         <div class="mx-auto banner-filter">
           <div class="py-8">
               <div class="mx-5 banner-text">
-                專業無水印花 無污染工業認證<br>
-                業界一致認同的綠色工廠
+                {% trans "index_intro_3_title" %}
               </div>
           </div>
         </div>
       </div>
       <p class="mt-5 mx-auto container" style="max-width: 800px;text-align: center;">
-        通過政府的無汙染生產認證，於2009年起申請瑞士bluesign無污染工業認證，不管是水質汙染指標還是空氣汙染指標，富潤皆是每年符合標準的綠色工廠。
+        {% trans "index_intro_3_content" %}
       </p>
       <div class="text-center mt-5 mb-6">
-        <a href="" class="blue-button">了解更多</a>
+        <a href="" class="blue-button">{% trans "index_read_more" %}</a>
       </div>
     </div>
 
@@ -138,8 +142,7 @@
         <div class="mx-auto banner-filter">
           <div class="py-8">
               <div class="mx-5 banner-text">
-                居家、飯店 家飾布裝飾<br>
-                環保安全、獨家上色技術
+                {% trans "index_intro_4_title" %}
               </div>
           </div>
         </div>
@@ -151,14 +154,14 @@
           <div class="col">
             <div class="product-box">
               <img src="{% static 'web/assets/img/index/product_wall.png' %}" />
-              <div class="product-text">波麗壁布</div>
+              <div class="product-text">{% trans "footer_poli" %}</div>
             </div>
           </div>
         
           <div class="col">
             <div class="product-box">
               <img src="{% static 'web/assets/img/index/product_curtain.png' %}" />
-              <div class="product-text">浴簾</div>
+              <div class="product-text">{% trans "footer_shower_curtain" %}</div>
             </div>
           </div>
         </div>
@@ -167,14 +170,14 @@
           <div class="col">
             <div class="product-box">
               <img src="{% static 'web/assets/img/index/product_print.png' %}" />
-              <div class="product-text">掛布 / 掛畫</div>
+              <div class="product-text">{% trans "footer_typestry" %}</div>
             </div>
           </div>
         
           <div class="col">
             <div class="product-box">
               <img src="{% static 'web/assets/img/index/product_pillow.png' %}" />
-              <div class="product-text"> 抱枕 </div>
+              <div class="product-text">{% trans "footer_pillow" %}</div>
             </div>
           </div>
         </div>
@@ -182,7 +185,7 @@
       </div>
 
       <div class="text-center pt-1 pb-6">
-        <a href="" class="blue-button">了解更多</a>
+        <a href="" class="blue-button">{% trans "index_read_more" %}</a>
       </div>
     </div>
   </div>
@@ -240,7 +243,7 @@
     <div class="mx-auto banner-filter">
       <div class=" py-8">
           <div class="mx-5 banner-green-text">
-            綠色企業 永續經營
+            {% trans "index_intro_5_title" %}
           </div>
       </div>
     </div>

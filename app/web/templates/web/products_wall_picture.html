@@ -1,10 +1,12 @@
 {% extends 'web/base.html' %} {% block content %}
 {% load static %}
+{% load i18n %}
+
 <div class="wall-covering-bg">
     <div class="mx-auto banner-filter">
       <div class="py-8">
         <div class="about-title">
-          掛布/掛畫
+          {% trans "footer_typestry" %}
         </div>
       </div>
     </div>
@@ -15,77 +17,77 @@
       <!-- breadcrumb -->
       <nav class="mb-3" style="--chijia-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%23748194'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a class="text-dark" href="{% url 'products' %}">家飾產品</a></li>
-          <li class="breadcrumb-item active" aria-current="page">掛布/掛畫</li>
+          <li class="breadcrumb-item"><a class="text-dark" href="{% url 'products' %}">{% trans "products_title" %}</a></li>
+          <li class="breadcrumb-item active" aria-current="page">{% trans "footer_typestry" %}</li>
         </ol>
       </nav>
 
       <!-- cases -->
       <div class="row">
         <div class="col-6 col-md-4 text-center my-2">
-          <a href="">
+          <a href="{% static 'web/assets/img/products/wall-picture/wall-picture1.png' %}" data-gallery="gallery-1">
             <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture1.png' %}" alt="">
-            <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+            <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
           </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+          <a href="{% static 'web/assets/img/products/wall-picture/wall-picture2.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture2.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture3.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture3.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture4.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture4.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture5.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture5.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture6.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture6.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture7.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture7.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture8.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture8.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture9.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture9.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture10.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture10.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
         <div class="col-6 col-md-4 text-center my-2">
-            <a href="">
+            <a href="{% static 'web/assets/img/products/wall-picture/wall-picture11.png' %}" data-gallery="gallery-1">
               <img class="img-fluid" src="{% static 'web/assets/img/products/wall-picture/wall-picture11.png' %}" alt="">
-              <div class="about-section-title mt-2">範例產品：掛布/掛畫</div>
+              <div class="about-section-title mt-2">{% trans "demo_typestry" %}</div>
             </a>
         </div>
       </div>

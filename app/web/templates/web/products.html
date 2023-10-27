@@ -1,11 +1,13 @@
 
 {% extends 'web/base.html' %} {% block content %}
 {% load static %}
+{% load i18n %}
+
 <div class="products-bg">
     <div class="mx-auto banner-filter">
       <div class="py-8">
         <div class="about-title">
-            家飾產品
+          {% trans "products_title" %}
         </div>
       </div>
     </div>
@@ -17,13 +19,13 @@
             <div class="col-6 col-md-4 text-center my-2">
               <a href="{% url 'products_wall_covering'%}">
                 <img class="img-fluid" style="width: 90%;max-width: 250px;" src="{% static 'web/assets/img/products/products_wall.png' %}" alt="">
-                <div class="about-section-title mt-2">波麗壁布</div>
+                <div class="about-section-title mt-2">{% trans "footer_poli" %}</div>
               </a>
             </div>
             <div class="col-6 col-md-4 text-center my-2">
               <a href="{% url 'products_shower_curtain'%}">
                 <img class="img-fluid" style="width: 90%;max-width: 250px;" src="{% static 'web/assets/img/shower_curtain/shower_curtain_1.jpg' %}" alt="">
-                <div class="about-section-title mt-2">浴簾</div>
+                <div class="about-section-title mt-2">{% trans "footer_shower_curtain" %}</div>
               </a>
             </div>
             <!-- <div class="col-6 col-md-4  text-center my-2">
@@ -35,7 +37,7 @@
             <div class="col-6 col-md-4 text-center my-2">
               <a href="{% url 'products_wall_picture'%}">
                 <img class="img-fluid" style="width: 90%;max-width: 250px;" src="{% static 'web/assets/img/products/products_painting.png' %}" alt="">
-                <div class="about-section-title mt-2">掛布/掛畫</div>
+                <div class="about-section-title mt-2">{% trans "footer_typestry" %}</div>
               </a>
             </div>
             <!-- <div class="col-6 col-md-4 text-center my-2">
@@ -47,7 +49,7 @@
             <div class="col-6 col-md-4 text-center my-2">
               <a href="{% url 'products_cushion'%}">
                 <img class="img-fluid" style="width: 90%;max-width: 250px;" src="{% static 'web/assets/img/products/products_cushion.png' %}" alt="">
-                <div class="about-section-title mt-2">抱枕</div>
+                <div class="about-section-title mt-2">{% trans "footer_pillow" %}</div>
               </a>
             </div>
         </div>

@@ -18,13 +18,19 @@ from django.contrib.auth.decorators import login_required
 from ckeditor_uploader import views as ckeditor_views
 from django.conf import settings
 from django.conf.urls.static import static
+from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
+    path('ckeditor/', include('ckeditor_uploader.urls')),
     path('admin/', admin.site.urls),
     path('api/user/', include('user.urls')),
     path('', include('web.urls')),
-    path('ckeditor/', include('ckeditor_uploader.urls')),
+    # path('i18n/', include('django.conf.urls.i18n')),
 ]
+
+urlpatterns += i18n_patterns(
+    path('', include('web.urls')),
+)
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
