@@ -3588,14 +3588,15 @@ var navbarDarkenOnScroll = function navbarDarkenOnScroll() {
     // }); // Toggle bg class on window resize
 
     // Change navbar background color on scroll
-    let alpha = 0.4;
+    let alpha = 1;
     const handleScroll = () => {
       const { scrollTop } = html;
       if ((scrollTop / windowHeight) * 2 > 0.5) {
         alpha = (scrollTop / windowHeight) * 1.8;
       }
       alpha >= 1 && (alpha = 1);
-      navbar.style.backgroundColor = `rgba(${colorRgb[0]}, ${colorRgb[1]}, ${colorRgb[2]}, ${alpha})`;
+      // navbar.style.backgroundColor = `rgba(${colorRgb[0]}, ${colorRgb[1]}, ${colorRgb[2]}, ${alpha})`;
+      navbar.style.backgroundColor = `rgba(0,0,0,1)`;
       navbar.style.backgroundImage =
         alpha > 0 || utils.hasClass(navbarCollapse, 'show')
           ? backgroundImage

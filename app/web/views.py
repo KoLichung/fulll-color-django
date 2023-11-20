@@ -1,7 +1,17 @@
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
 
-# Create your views here.
+# ============ Version 2 ==================
+def index_2(request):
+    return render(request,'web/index_2.html')
+
+def certifications(request):
+    return render(request,'web/certifications.html')
+
+def company_profile(request):
+    return render(request,'web/company_profile.html')
+
+# ============ Version 1 ==================
 
 def index(request):
     return render(request,'web/index.html')

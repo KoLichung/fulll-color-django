@@ -5,6 +5,10 @@ from django.http import HttpResponse
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('index_2', views.index_2, name='index_2'),
+    path('certifications', views.certifications, name='certifications'),
+    path('company_profile', views.company_profile, name='company_profile'),
+
     path('tech_service', views.tech_service, name='tech_service'),
     path('about', views.about, name = 'about'), 
     path('news', views.news, name = 'news'),

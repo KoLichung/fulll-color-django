@@ -1,0 +1,35 @@
+{% extends 'web/base_2.html' %} 
+
+{% block extra_styles %}
+    <style>
+        body {
+            background-color: #ffffff; /* Change to the desired background color */
+            color: black;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+{% load static %}
+{% load i18n %}
+
+<div class="tech-bg">
+    <div class="mx-auto banner-filter">
+      <div class="py-8">
+        <div class="about-title">
+            Company Profile
+        </div>
+        <div class="col-10 col-md-8 mx-auto" style="max-width: 1280px;">
+            <!-- <div class="mx-6"><hr class="custom-hr"></div> -->
+            <div class="about-text mx-md-6">
+                Our Over 30 Years History
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+{% endblock %}
