@@ -4,11 +4,12 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('index_2', views.index_2, name='index_2'),
+    path('', views.index_2, name='index_2'),
     path('certifications', views.certifications, name='certifications'),
     path('company_profile', views.company_profile, name='company_profile'),
+    path('products_v2', views.products_v2, name='products_v2'),
 
+    path('index', views.index, name='index'),
     path('tech_service', views.tech_service, name='tech_service'),
     path('about', views.about, name = 'about'), 
     path('news', views.news, name = 'news'),

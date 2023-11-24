@@ -11,6 +11,9 @@ def certifications(request):
 def company_profile(request):
     return render(request,'web/company_profile.html')
 
+def products_v2(request):
+    return render(request,'web/products_v2.html')
+
 # ============ Version 1 ==================
 
 def index(request):

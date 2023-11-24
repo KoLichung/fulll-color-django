@@ -1,0 +1,87 @@
+{% extends 'web/base_2.html' %} 
+
+{% block extra_styles %}
+    <style>
+        body {
+            background-color: #ffffff; /* Change to the desired background color */
+            color: black;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+{% load static %}
+{% load i18n %}
+
+<div class="tech-bg">
+    <div class="mx-auto banner-filter">
+      <div class="py-8">
+        <div class="about-title">
+            Products
+        </div>
+        <div class="col-10 col-md-8 mx-auto" style="max-width: 1280px;">
+            <!-- <div class="mx-6"><hr class="custom-hr"></div> -->
+            <div class="about-text mx-md-6">
+                Our Proud Products
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="mx-auto" style="margin-top: 50px;margin-bottom: 50px; max-width: 1080px;">
+
+    <div class="content-item">
+        <!-- Image -->
+        <img src="{% static 'web/assets/img/products_v2/products_home_all.jpg' %}" alt="Your Image" style="width: 100%; object-fit: contain;">
+
+        <!-- Text -->
+        <p style="font-size: 1.5em; margin-top: 10px;margin-bottom: 0px;">窗簾/沙發/家飾布 Plain, Print, Upholstery Fabric</p>
+
+        <!-- Description -->
+        <p>
+            富潤在家飾布領域有30年的經歷，主要供應國内外窗簾批發商。我們的品質與服務深獲品牌商的信賴。
+        </p>
+    </div>
+
+    <div class="content-item">
+        <!-- Image -->
+        <img src="{% static 'web/assets/img/products_v2/products_poli_wall.jpg' %}" alt="Your Image" style="width: 100%;margin-top: 20px; object-fit: contain;"><br>
+
+        <img src="{% static 'web/assets/img/company_profile/poli_logo.jpeg' %}" style="width: 120px;margin-left: 20px;margin-top: 10px;margin-bottom: 10px;" />
+        <!-- Description -->
+        <p>
+            波麗壁布是我們的品牌產品，採用高精度布料轉印技術，呈現出逼真的效果，讓您體驗豐富的視覺饗宴；同時，我們非常重視產品的安全，波麗壁布為純布織造、使用無毒墨水、防潑水、一級防焰、有多項環保認證，是實踐公司友善環境理念的綠色產品。
+        </p>
+    </div>
+
+    <div class="content-item">
+        <!-- Image -->
+        <img src="{% static 'web/assets/img/products_v2/products_others.jpg' %}" alt="Your Image" style="width: 100%;margin-top: 20px; object-fit: contain;">
+
+        <!-- Text -->
+        <p style="font-size: 1.5em; margin-top: 10px;margin-bottom: 0px;">其他</p>
+
+        <!-- Description -->
+        <p>
+            波麗壁布是我們的品牌產品，採用高精度布料轉印技術，呈現出逼真的效果，讓您體驗豐富的視覺饗宴；同時，我們非常重視產品的安全，波麗壁布為純布織造、使用無毒墨水、防潑水、一級防焰、有多項環保認證，是實踐公司友善環境理念的綠色產品。
+        </p>
+    </div>
+
+</div>
+
+<style>
+    .content-item p {
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 1080px) {
+        .content-item p{
+           margin-left: 20px;
+           margin-right: 20px;
+        }
+    }
+</style>
+
+
+{% endblock %}

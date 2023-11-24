@@ -406,3 +406,8 @@ p{
   padding-left: 20px;
   border-left: thick solid white;
 }
+
+.certification-icon {
+  width: 100px;
+  margin-bottom: 20px; /* Adjust as needed for spacing between icons */
+}
