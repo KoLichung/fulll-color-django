@@ -52,7 +52,7 @@
               <a class="nav-link" href="{% url 'certifications' %}">Certifications</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'products_v2' %}">Products/Services</a>
+                <a class="nav-link" href="{% url 'products_v2' %}">Products</a>
               </li>
             <li class="nav-item">
               <a class="nav-link" href="http://design.full-color.com.tw/" target="_blank">Designs</a>
@@ -90,12 +90,12 @@
         <div class="col-11 col-md-6 text-white text-center order-2 order-md-1 mt-5 mt-md-0 mx-auto">
           <div class="mx-3 text-start">
             <div class="footer-title">
-              富潤股份有限公司
+              Full Color Co., Ltd.
             </div>
             <div class="footer-text">
               TEL：04-7582468<br>
               EMAIL：candy@full-color.com.tw<br>
-              {% trans "footer_address" %}
+              Addr.：No. 101-11, Xiali Rd., Xianxi Township, Changhua County 507 , Taiwan (R.O.C.)
             </div>
           </div>
           
@@ -116,32 +116,14 @@
 
         <div class="col-12 col-md-6 text-white mx-auto order-1 order-md-2">
           <div class="container">
-            <div class="row">
-              <!-- <div class="col-6 col-md-6 col-lg-3">
-                  <div><b>最新消息</b></div>
-                  <div><a href="{% url 'news' %}" style="color: white;">最新消息</a></div>
-              </div> -->
-              <div class="col-6 col-md-6 col-lg-3">
-                  <div><b>{% trans "nav_about" %}</b></div>
-                  <div><a href="{% url 'about' %}" style="color: white;">{% trans "footer_grow" %}</a></div>
-                  <div><a href="{% url 'values' %}" style="color: white;">{% trans "footer_philosophy" %}</a></div>
-                  <div><a href="{% url 'team' %}" style="color: white;">{% trans "footer_team" %}</a></div>
-              </div>
-              <div class="col-6 col-md-6 col-lg-3">
-                  <div><b>{% trans "nav_service" %}</b></div>
-                  <div><a href="{% url 'tech_service' %}" style="color: white;">{% trans "footer_tech" %}</a></div>
-                  <!-- <div>窗簾代工</div> -->
-                  <div><a href="http://design.full-color.com.tw/" style="color: white;">{% trans "footer_design" %}</a></div>
-              </div>
-              <div class="col-6 col-md-6 col-lg-3 mt-3 mt-lg-0">
-                  <div><b>{% trans "nav_products" %}</b></div>
-                  <div><a href="{% url 'products_wall_covering' %}" style="color: white;">{% trans "footer_poli" %}</a></div>
-                  <div><a href="{% url 'products_shower_curtain' %}" style="color: white;">{% trans "footer_shower_curtain" %}</a></div>
-                  <!-- <div><a href="{% url 'products_door_curtain' %}" style="color: white;">門簾</a></div> -->
-                  <div><a href="{% url 'products_wall_picture' %}" style="color: white;">{% trans "footer_typestry" %}</a></div>
-                  <div><a href="{% url 'products_cushion' %}" style="color: white;">{% trans "footer_pillow" %}</a></div>
-                  <!-- <div><a href="{% url 'products_tablecloth' %}" style="color: white;">桌巾/桌條</a></div> -->
-              </div>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-6 col-lg-6">
+                    <div><b>About Full Color</b></div>
+                    <div><a href="{% url 'about' %}" style="color: white;">Our Story</a></div>
+                    <div><a href="{% url 'about' %}" style="color: white;">Products</a></div>
+                    <div><a href="{% url 'about' %}" style="color: white;">Certificates</a></div>
+                    <div><a href="{% url 'about' %}" style="color: white;">Designs</a></div>
+                </div>
             </div>
           </div>
         </div>
