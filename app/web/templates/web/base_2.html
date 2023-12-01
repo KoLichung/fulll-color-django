@@ -46,16 +46,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'company_profile' %}">About</a>
+              <a class="nav-link" href="{% url 'company_profile' %}">{% trans "nav_about" %}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'certifications' %}">Certifications</a>
+              <a class="nav-link" href="{% url 'certifications' %}">{% trans "nav_certifications" %}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'products_v2' %}">Products</a>
+                <a class="nav-link" href="{% url 'products_v2' %}">{% trans "nav_products" %}</a>
               </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://design.full-color.com.tw/" target="_blank">Designs</a>
+              <a class="nav-link" href="http://design.full-color.com.tw/" target="_blank">{% trans "nav_design" %}</a>
             </li>
             
 
@@ -90,12 +90,12 @@
         <div class="col-11 col-md-6 text-white text-center order-2 order-md-1 mt-5 mt-md-0 mx-auto">
           <div class="mx-3 text-start">
             <div class="footer-title">
-              Full Color Co., Ltd.
+              {% trans "footer_company" %}
             </div>
             <div class="footer-text">
               TEL：04-7582468<br>
               EMAIL：candy@full-color.com.tw<br>
-              Addr.：No. 101-11, Xiali Rd., Xianxi Township, Changhua County 507 , Taiwan (R.O.C.)
+              {% trans "footer_address" %}
             </div>
           </div>
           
@@ -118,11 +118,11 @@
           <div class="container">
             <div class="row justify-content-md-center justify-content-start">
                 <div class="col-6 col-md-6 col-lg-6">
-                    <div><b>The Sitemap</b></div>
-                    <div><a href="{% url 'about' %}" style="color: white;">Our Story</a></div>
-                    <div><a href="{% url 'about' %}" style="color: white;">Products</a></div>
-                    <div><a href="{% url 'about' %}" style="color: white;">Certificates</a></div>
-                    <div><a href="{% url 'about' %}" style="color: white;">Designs</a></div>
+                    <div><b>{% trans "footer_sitemap" %}</b></div>
+                    <div><a href="{% url 'company_profile' %}" style="color: white;">{% trans "footer_story" %}</a></div>
+                    <div><a href="{% url 'products_v2' %}" style="color: white;">{% trans "footer_Products" %}</a></div>
+                    <div><a href="{% url 'certifications' %}" style="color: white;">{% trans "footer_certifications" %}</a></div>
+                    <div><a href="http://design.full-color.com.tw/" target="_blank" style="color: white;">{% trans "footer_design" %}</a></div>
                 </div>
             </div>
           </div>

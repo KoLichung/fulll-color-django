@@ -36,14 +36,14 @@ msgstr "Full Color Co., Ltd."
 msgid "nav_about"
 msgstr "About"
 
-msgid "nav_service"
-msgstr "Transfer Printing"
-
-msgid "nav_design"
-msgstr "Design Patterns"
+msgid "nav_certifications"
+msgstr "Certifications"
 
 msgid "nav_products"
 msgstr "Products"
+
+msgid "nav_design"
+msgstr "Designs"
 
 msgid "nav_language"
 msgstr "En"
@@ -54,154 +54,92 @@ msgstr "Chinese"
 msgid "nav_language_2"
 msgstr "En"
 
-###### end Nav
-
 ###### footer
+msgid "footer_company"
+msgstr "Full Color Co., Ltd."
+
+msgid "footer_sitemap"
+msgstr "The Sitemap"
 
 msgid "footer_address"
 msgstr "Addr.：No. 101-11, Xiali Rd., Xianxi Township, Changhua County 507 , Taiwan (R.O.C.)"
 
-msgid "footer_line"
-msgstr "LINE Official Service"
+msgid "footer_story"
+msgstr "Our Story"
 
-msgid "footer_grow"
-msgstr "Story"
+msgid "footer_Products"
+msgstr "Products"
 
-msgid "footer_philosophy"
-msgstr "Philosophy"
-
-msgid "footer_team"
-msgstr "Team"
-
-msgid "footer_tech"
-msgstr "Tech."
+msgid "footer_certifications"
+msgstr "Certifications"
 
 msgid "footer_design"
-msgstr "Patterns"
+msgstr "Designs"
 
-msgid "footer_poli"
-msgstr "Poli Wall Papper"
+###### 3 boxes
+msgid "boxes_1_content"
+msgstr "Full Color has great experience in sublimation heat transfer printing."
 
-msgid "footer_shower_curtain"
-msgstr "Shower Curtain"
+msgid "boxes_2_content"
+msgstr "Work well with lots of companies and have developed trust with each other."
 
-msgid "footer_typestry"
-msgstr "Typestry"
+msgid "boxes_3_content"
+msgstr "We have more than 10,000 product-ready designs and the number is continuously increased."
 
-msgid "footer_pillow"
-msgstr "Pillow"
+###### company_profile
 
-######
+msgid "company_profile_growth_title"
+msgstr "Company Growth Journey"
 
-msgid "Slogan_1"
-msgstr "Enrich life with color,"
+msgid "company_profile_growth_1991"
+msgstr "Establishment of Full Color Co., Ltd."
 
-msgid "Slogan_2"
-msgstr "Touch people's hearts with design."
+msgid "company_profile_growth_1997"
+msgstr "Formation of Design Team"
 
-msgid "index_intro_1_title"
-msgstr "Your Best Partner for Color Printing"
+msgid "company_profile_growth_2009"
+msgstr "Swiss bluesign® Eco-friendly Industrial Certification"
 
-msgid "index_intro_1_content"
-msgstr "With 30 years of printing experience, we deliver with precision every time. Your trust is our greatest motivation."
+msgid "company_profile_growth_2017"
+msgstr "Featured on Public Television's 'Winning in the Global Village'<br>Exclusive Interview with the Company"
 
-msgid "index_intro_2_title"
-msgstr "In-House Design Team and Image Library"
+msgid "company_profile_growth_2018"
+msgstr "Launch of Own Brand for Interior Decoration<br>'Poly Wallpaper' Established"
 
-msgid "index_intro_2_content"
-msgstr "To meet various needs, we have a strong design team. From design to production, we enable customers to complete one-stop sourcing."
+msgid "company_profile_growth_2019"
+msgstr "OEKO-TEX Certification"
 
-msgid "index_intro_3_title"
-msgstr "Professional Watermark-Free Printing, Pollution-Free Industrial Certification<br>An Industry-Recognized Green Factory"
+msgid "company_profile_growth_2020"
+msgstr "Establishment of Digital Printing Factory"
 
-msgid "index_intro_3_content"
-msgstr "Having received government pollution-free production certification and applying for the Swiss bluesign pollution-free industrial certification since 2009, both in terms of water quality pollution standards and air quality pollution standards, Furun is a green factory that meets the standards every year."
+msgid "company_profile_growth_2021"
+msgstr "GRS Certification"
 
-msgid "index_read_more"
-msgstr "Read More"
+msgid "company_profile_growth_future"
+msgstr "Continuous Improvement"
 
-msgid "index_intro_4_title"
-msgstr "Home, Hotel, Home Decor Fabric Decoration<br>Environmentally Friendly, Exclusive Coloring Technology"
+###### certifications
 
-msgid "index_intro_5_title"
-msgstr "Green Enterprise, Sustainable Operation"
+msgid "certifications_title"
+msgstr "Certifications"
 
-######
+msgid "certifications_sub_title"
+msgstr "Our Environmental Production Certifications"
 
-###### tech_service
+msgid "certifications_bluesign_content"
+msgstr "The Bluesign® standard offers an independent approval system for the textile industry, which takes into account the entire production process, minimizing the impact on the environment, protecting human health and increasing competitiveness and innovation."
 
-msgid "service_title_1"
-msgstr "Printing Center (Printing Department, Transfer Department)"
+msgid "certifications_okeo_tex_content"
+msgstr "The Oeko Tex brand highlights the use of technologies, processes and products that minimize the environmental impact, through an annual verification of compliance with the strict ecological requirements defined by the International Institute for Research in the field of textile ecology. The tests carried out on these articles, according to STANDARD 100 by OEKO ‑ TEX®, Appendix 4, Class I articles for babies, it appears that the human-ecological requirements, currently in force and established by STANDARD 100 by OEKO ‑ TEX®, Appendix 4, have been respected."
 
-msgid "service_content_1"
-msgstr "We use a 4-color dye to mix colors in millions of shades according to the needs of brand customers. We then transfer these colored patterns to customer's fabric using the sublimation principle, creating a bright and colorful work."
+msgid "certifications_global_recycle_content"
+msgstr "Product and process certification: according to the Global Recycle Standard, it certifies products made from recycled materials and manufacturing activities. It enhances the value of products made from recycled materials, respecting environmental and social criteria extended to all stages of the production chain."
 
-msgid "service_title_2"
-msgstr "Quick Sublimation Transfer, Transforming Fabric into Colorful Works"
+msgid "certifications_vf_content"
+msgstr "VF certification are terms of Engagement make it clear that contracted factories must conduct business in full compliance with all applicable laws, rules and regulations and comply with the terms of our Global Compliance Principles."
 
-msgid "service_content_2"
-msgstr "With over 30 years of experience in sublimation transfer, Furun excels in accurately transferring colors onto fabric. Our stable quality has earned the trust and long-term collaboration of many manufacturers. We take this trust as the best reward and continue to strive every day!"
-
-msgid "service_title_3"
-msgstr "Sublimation Technology"
-
-msgid "service_content_3"
-msgstr "Sublimation refers to the process where sublimation ink is heated to a specific temperature, causing the dye to transition from a solid to a gas. As the temperature decreases, the dye reverts to a solid state, permeating the surface of the transferred item, achieving the goal of sublimation. Due to the high sublimation temperature, it does not fade with long-term use, and the process does not produce wastewater, making it environmentally friendly and safe."
-
-msgid "service_title_4"
-msgstr "Quality Maintenance, Trust in Experience and Data"
-
-msgid "service_content_4"
-msgstr "Sublimation is both a technical and artistic skill. Mastery of factors such as temperature, pigments, and time is essential to maintain product quality. We have accumulated extensive experience and data and are confident in delivering for our customers each time. We have ample experience with various textile products, and we look forward to your email or LINE inquiries."
-
-######
-
-###### products
-
-msgid "products_title"
-msgstr "Home Decor Products"
-
-######
-
-###### products wall covering
-
-msgid "case_1"
-msgstr "Case 1: Dining Space"
-
-msgid "case_2"
-msgstr "Case 2: Bedroom Environment"
-
-msgid "case_3"
-msgstr "Case 3: Children's Bedroom"
-
-msgid "case_4"
-msgstr "Case 4: Office Environment"
-
-msgid "case_5"
-msgstr "Case 5: Home Environment"
-
-######
-
-###### Shower Curtain
-
-msgid "demo_shower_curtain"
-msgstr "Sample Product: Shower Curtain"
-
-######
-
-###### Wall Picture
-
-msgid "demo_typestry"
-msgstr "Sample Product: Tapestry/Wall Art"
-
-######
-
-###### pillow
-
-msgid "demo_pillow"
-msgstr "Sample Product: Pillow"
-
-######
+msgid "certifications_higg_content"
+msgstr "The Higg Index is an apparel and footwear industry self-assessment standard to rate environment and social sustainability throughout the supply chain. It was launched in 2012 by Sustainable Apparel Coalition (SAC), a nonprofit organization of more than 270 fashion brands/retailers, manufacturers, academic institutions, affiliates, NGOs and governments."
 
 ##### about
 
@@ -210,15 +148,6 @@ msgstr "About Furun Home Decor Fabric"
 
 msgid "about_content_1"
 msgstr "Furun has over 30 years of professional experience in mastering color, design, and textile production. With a complete team of designers, we bring your ideas for space design to life."
-
-msgid "about_tab_1"
-msgstr "Company Introduction (Growth Story)"
-
-msgid "about_tab_2"
-msgstr "Business Philosophy"
-
-msgid "about_tab_3"
-msgstr "Management Team"
 
 msgid "about_title_2"
 msgstr "30 Years of Experience Accumulation, Top-Quality Printing Services"
@@ -237,97 +166,3 @@ msgstr "Emphasizing Design and Color, with an In-House Design Team"
 
 msgid "about_content_4"
 msgstr "In addition to collaborations with internationally renowned brands, Furun has embarked on a concept of 'letting color and design travel the world' this year. We have created transfer paper that is convenient and lightweight, which can be sent to various countries for production assistance. In the future, we hope to create higher value through 'close collaboration between design and practice.' This is why we have established 'Design Gathering' to collect good designs from around the world, allowing everyone to become a partner of Furun."
-
-msgid "about_growth_title"
-msgstr "Growth History"
-
-msgid "about_growth_2023"
-msgstr "Establishment of Furun Home Decor Fabric Full Color Brand"
-
-msgid "about_growth_2020"
-msgstr "Establishment of a Digitalized Factory"
-
-msgid "about_growth_2018"
-msgstr "Introduction of Happy Space Light Renovation and Release of Poly Wallpaper"
-
-msgid "about_growth_2017"
-msgstr "Participation in Taipei Building Material Exhibition, Introduction of New Wallpaper Types Suitable for Home, Restaurants, and Hotels, Featured Interview on 'Win in the Global Village' Program at the Company"
-
-#####
-
-###### values
-
-msgid "values_title_1"
-msgstr "Business Philosophy"
-
-msgid "values_content_1"
-msgstr "Master color through technology, create value through design, achieve win-win through service."
-
-msgid "values_title_2"
-msgstr "Vision & Principle"
-
-msgid "values_title_3"
-msgstr "Enriching Life with Color"
-
-msgid "values_content_3"
-msgstr "Life is full of colors, and that's why we exist. We bring the breathtaking colors of nature to the corners of life, allowing everyone to share in this joy."
-
-msgid "values_title_4"
-msgstr "Touching Hearts with Design"
-
-msgid "values_content_4"
-msgstr "Design gives items a soul. Furun is an expert in the design of space and home decor fabrics, dedicated to filling our customers' living spaces with inspiration."
-
-msgid "values_title_5"
-msgstr "Service Spirit, Mission Accomplished"
-
-msgid "values_content_5"
-msgstr "Whether it's color printing or space design, we always strive to meet customer demands with a service-oriented approach, creating a win-win for both parties."
-
-msgid "values_footer"
-msgstr "Fulfilling The Mission"
-
-######
-
-###### team
-
-msgid "team_title_1"
-msgstr "Management Team"
-
-msgid "team_content_1"
-msgstr "Furun's Family"
-
-msgid "team_title_2"
-msgstr "General Manager - Huang Zunlin"
-
-msgid "team_content_2"
-msgstr "Bringing designers' creativity together with fashionable colors and textiles to enrich homeowners' lives in their living spaces is Furun's responsibility and aspiration as a suitable publishing platform."
-
-msgid "team_title_3"
-msgstr "Assistant Manager of the Printing Center - Zhou Jinlai"
-
-msgid "team_content_3"
-msgstr "The textile dyeing industry consumes a large amount of water, which is not in line with modern environmental requirements and creates a significant cost burden. Using printing instead of dyeing is one of our core technological goals, allowing effective control of fabric coloring conditions and color diversity."
-
-msgid "team_title_4"
-msgstr "Assistant Manager of the Design Department - Liu Yaru"
-
-msgid "team_content_4"
-msgstr "The design center currently has about twenty design staff members, mainly assisting clients in completing designs and analyzing common issues during the plate-making process. Through years of experience and a continuous quest for better service quality, we have become a trusted partner for domestic fabric factories and brand designers. We also collect design drafts from campus talents through industry-academia collaboration and have established the Design Gathering image library to allow more people to see a wide variety of designs."
-
-msgid "team_title_5"
-msgstr "Assistant Manager of the Digital Printing Center - Chen Shengde"
-
-msgid "team_content_5"
-msgstr "Digital printing encompasses design, file color correction, and single-machine, single-person, end-to-end operation. There is no need to increase plate costs or working hours, and there is no need to worry about unused plates after the design phase, which would lead to inventory pressure. Throughout the entire lifecycle of printing, no environmental pollution is generated, setting the standard for energy-saving, emissions reduction, and a green economy in the future."
-
-msgid "team_title_6"
-msgstr "Assistant Manager of Interior Textile Product Distribution - Ke Lizhong"
-
-msgid "team_content_6"
-msgstr "Textile products are essential to human life. We aspire to craft high-quality interior textile products with a craftsman's spirit, allowing users to enjoy a more relaxed and comfortable indoor space. If you have any needs for interior textile products, please be sure to contact us."
-
-msgid "team_footer"
-msgstr "Team Work: Facing Challenges Together"
-
-######

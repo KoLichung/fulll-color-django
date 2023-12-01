@@ -3,102 +3,97 @@
 {% load i18n %}
 
 
-<!-- for screen smaller than 992px -->
-<div style="position: relative;" class="d-lg-none">
-    <img class="d-block" style='width: 100%; height: 780px; object-fit: cover;' src="{% static 'web/assets/img/index_2/7_main_background.jpg' %}" alt="First slide" />
-    <div class="gradient-div">
-        <div style="position: absolute; top: 10%; left: 5%;">
-            <img src="{% static 'web/assets/img/index_2/2_color_sing.png' %}" style="width: 300px;" />
-        </div>
-        <div style="position: absolute; bottom: 10%; right: 5%;">
-            <img src="{% static 'web/assets/img/index_2/3_what_we_do.png' %}" style="width: 350px;" />
-        </div>
-    </div>
+<!-- for screen smaller than 540px -->
+<div style="position: relative;" class="d-sm-none">
+    <img class="d-block" style='width: 100%; object-fit: cover;' src="{% static 'web/assets/img/index_2/new/main_pic_small.jpg' %}" alt="First slide" />
 </div>
 
-<!-- for screen bigger than 992px, less than 1200px -->
-<div style="position: relative;" class="d-none d-lg-block d-xl-none">
-    <img class="d-block" style='width: 100%; height: 700px; object-fit: cover;' src="{% static 'web/assets/img/index_2/7_main_background.jpg' %}" alt="First slide" />
-    <div class="gradient-div">
-        <div style="position: absolute; top: 20%; left: 10%;">
-            <img src="{% static 'web/assets/img/index_2/2_color_sing.png' %}" style="width: 400px;" />
-        </div>
-        <div style="position: absolute; bottom: 10%; right: 10%;">
-            <img src="{% static 'web/assets/img/index_2/3_what_we_do.png' %}" style="width: 500px;" />
-        </div>
-    </div>
-</div>
-
-<!-- for screen bigger than 1200px -->
-<div style="position: relative;" class="d-none d-xl-block">
-    <img class="d-block" style='width: 100%; height: 700px; object-fit: cover;' src="{% static 'web/assets/img/index_2/7_main_background.jpg' %}" alt="First slide" />
-    <div class="gradient-div">
-        <div style="position: absolute; top: 20%; left: 17%;">
-            <img src="{% static 'web/assets/img/index_2/2_color_sing.png' %}" style="width: 400px;" />
-        </div>
-        <div style="position: absolute; bottom: 10%; right: 17%;">
-            <img src="{% static 'web/assets/img/index_2/3_what_we_do.png' %}" style="width: 500px;" />
-        </div>
-    </div>
+<!-- for screen bigger than 540px -->
+<div class="d-none d-sm-block">
+    <img class="d-block mx-auto" style='width: 100%; object-fit: cover; max-width: 1780px;' src="{% static 'web/assets/img/index_2/new/main_pic.jpg' %}" alt="First slide" />
 </div>
 
 <!-- 3 boxes -->
-<div class="container" style="max-width: 1280px; color: white; margin-top: 20px;margin-bottom: 20px;">
+<div class="container" style="max-width: 1380px; color: white; margin-top: 20px;margin-bottom: 20px;">
     <div class="row d-flex">
         
         <div class="col-sm-4 d-flex flex-column align-items-center justify-content-center px-4 px-sm-3" style="margin-top: 20px;margin-bottom: 20px;">
           <div class="box text-center border border-5 p-3 flex-fill">
             <p class="display-4">30+</p>
-            <p class="h5" style="color: white;">Years</p>
-            <p>Full Color has great experience in sublimation heat transfer printing.</p>
+            <p class="h5" style="color: white;">{% trans "boxes_1_unit" %}</p>
+            <p>{% trans "boxes_1_content" %}</p>
           </div>
         </div>
         
         <div class="col-sm-4 d-flex flex-column align-items-center justify-content-center px-4 px-sm-3" style="margin-top: 20px;margin-bottom: 20px;">
           <div class="box text-center border border-5 p-3 flex-fill">
             <p class="display-4">1000+</p>
-            <p class="h5" style="color: white;">Partners</p>
-            <p>Work well with lots of companies and have developed trust with each other.</p>
+            <p class="h5" style="color: white;">{% trans "boxes_2_unit" %}</p>
+            <p>{% trans "boxes_2_content" %}</p>
           </div>
         </div>
         
         <div class="col-sm-4 d-flex flex-column align-items-center justify-content-center px-4 px-sm-3" style="margin-top: 20px;margin-bottom: 20px;">
           <div class="box text-center border border-5 p-3 flex-fill">
             <p class="display-4">10000+</p>
-            <p class="h5" style="color: white;">In-house Designs</p>
-            <p>We have more than 10,000 product-ready designs and the number is continuously increased.</p>
+            <p class="h5" style="color: white;">{% trans "boxes_3_unit" %}</p>
+            <p>{% trans "boxes_3_content" %}</p>
           </div>
         </div>
     </div>
 </div>
 
-<div class="company-profile-bg" style="margin-top: 20px;">
-    <div class="overlay">
-        <div class="content-container">
-            <div class="profile"><Strong>Our Profile</Strong></div>
-            <div class="article-content">
-                <p>
-                    Full Color Company, established in 1991, is the most professional non-water sublimation transfer printing in the Asia area.
-                </p>
-                <p>
-                    We focus on the quality of each print, paying attention to every little detail to ensure that each delivery meets our customer's expectations.
-                </p>
-                <p>
-                    Over time, we have accumulated many customers, and this is the fundamental reason for our growth and prosperity.
-                </p>
+<!-- company profile -->
+<div class="d-sm-none text-center">
+    <div class="p-4">
+        <h3 style="color: white;">Our Profile</h3>
+        <p>Full Color Company, established in 1991, is the leading professional non-water sublimation transfer printing company in Asia.</p>
+        <p>We prioritize the quality of each print, paying meticulous attention to every detail to ensure that each delivery exceeds our customer's expectations.</p>
+        <p>Our extensive customer base is the foundation of our continuous growth and prosperity.</p>
+    </div>
+    <img class="img-fluid" src="{% static 'web/assets/img/index_2/new/our-profile-small.png' %}" alt="Our Profile Image"/>
+</div>
+
+<style>
+    @media (max-width: 1480px) {
+        .container {
+            margin: 0;
+            max-width: 100%;
+        }
+    }
+</style>
+
+<div class="d-none d-sm-block text-center">
+    <div class="container">
+        <div class="row-profile row" style="margin: 0 auto; max-width: 1380px;margin-bottom: 20px;">
+            <div class="row mx-auto align-items-center" style="padding: 0px;">
+                <div class="col-sm-6" style="max-width: 680px;">
+                    <h3 style="color: white;">Our Profile</h3>
+                    <p>Full Color Company, established in 1991, is the leading professional non-water sublimation transfer printing company in Asia.</p>
+                    <p>We prioritize the quality of each print, paying meticulous attention to every detail to ensure that each delivery exceeds our customer's expectations.</p>
+                    <p>Our extensive customer base is the foundation of our continuous growth and prosperity.</p>
+                </div>
+                <div class="col-sm-6" style="overflow: hidden;padding: 0px;">
+                    <img class="d-block mx-auto" style="object-fit: cover; max-width: 100%; height: auto;min-height: 200px;" src="{% static 'web/assets/img/index_2/new/our-profile.jpg' %}" alt="Our Profile Image"/>
+                </div>
             </div>
         </div>
+        <img class="d-block mx-auto" style='width: 100%; object-fit: cover; max-width: 1360px;margin-bottom: 20px;' src="{% static 'web/assets/img/index_2/new/our-profile-2.jpg' %}" alt="First slide" />
     </div>
 </div>
+
+
+
 
 <!-- Our Tech Section -->
 <div class="our-tech">
     <div class="container" style="max-width: 1280px; padding-top: 40px; padding-left: 20px; position: relative; color: black; font-size: 1.5em;">
         <strong>Our Technology</strong>
     </div>
-    <img src="{% static 'web/assets/img/index_2/our_tech_image.jpg' %}" alt="Technology Image" class="tech-image">
+    <img src="{% static 'web/assets/img/index_2/new/our-tech.jpg' %}" alt="Technology Image" class="tech-image d-none d-sm-block">
+    <img src="{% static 'web/assets/img/index_2/new/our-tech-small.jpg' %}" alt="Technology Image" class="tech-image d-sm-none">
     
-    <div class="container" style="padding-top: 0px; padding-left: 20px; position: relative; color: black; font-size: 1.2em;">
+    <div class="container" style="padding-top: 0px; padding-left: 20px; position: relative; color: black; font-size: 1.2em; max-width: 1280px;">
         <div>Digital Sublimation Printing</div>
         <div class="div-with-vertical-line">
             <div class="verticalLine">
@@ -121,8 +116,11 @@
     <div class="container" style="max-width: 1280px; padding-top: 40px; padding-left: 20px; position: relative; font-size: 1.5em;">
         <strong>Our Service</strong>
     </div>
-    <img src="{% static 'web/assets/img/index_2/our_service_image.png' %}" alt="Service Image" class="tech-image">
-    <div class="container" style="padding-top: 20px; padding-left: 20px; position: relative; font-size: 1.1em;">
+
+    <img src="{% static 'web/assets/img/index_2/new/our-service.jpg' %}" alt="Service Image" class="tech-image d-none d-sm-block">
+    <img src="{% static 'web/assets/img/index_2/new/our-service-small.jpg' %}" alt="Service Image" class="tech-image d-sm-none">
+    
+    <div class="container" style="padding-top: 20px; padding-left: 20px; position: relative; font-size: 1.1em;max-width: 1280px;">
         <div class="div-with-vertical-line">
             <div class="verticalLine-white">
                 Free consultation & desian suggestions

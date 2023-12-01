@@ -27,7 +27,7 @@ msgstr "中文"
 ###### Meta
 
 msgid "meta_title"
-msgstr "富潤家飾布設計"
+msgstr "富潤股份有限公司"
 
 ###### 
 
@@ -36,14 +36,14 @@ msgstr "富潤家飾布設計"
 msgid "nav_about"
 msgstr "關於富潤"
 
-msgid "nav_service"
-msgstr "轉印服務"
-
-msgid "nav_design"
-msgstr "設計圖庫"
+msgid "nav_certifications"
+msgstr "各項認證"
 
 msgid "nav_products"
 msgstr "家飾產品"
+
+msgid "nav_design"
+msgstr "設聚數"
 
 msgid "nav_language"
 msgstr "中文"
@@ -54,156 +54,102 @@ msgstr "中文"
 msgid "nav_language_2"
 msgstr "英文"
 
-###### end Nav
-
 ###### footer
+msgid "footer_company"
+msgstr "富潤股份有限公司"
+
+msgid "footer_sitemap"
+msgstr "網站地圖"
 
 msgid "footer_address"
 msgstr "地址：50742 彰化縣線西鄉下犁路101-11號"
 
-msgid "footer_line"
-msgstr "LINE 官方客服"
+msgid "footer_story"
+msgstr "富潤的故事"
 
-msgid "footer_grow"
-msgstr "成長故事"
-
-msgid "footer_philosophy"
-msgstr "經營理念"
-
-msgid "footer_team"
-msgstr "經營團隊"
-
-msgid "footer_tech"
-msgstr "轉印技術"
-
-msgid "footer_design"
-msgstr "設計圖庫"
-
-msgid "footer_poli"
-msgstr "波麗壁布"
-
-msgid "footer_shower_curtain"
-msgstr "浴簾"
-
-msgid "footer_typestry"
-msgstr "掛布/掛畫"
-
-msgid "footer_pillow"
-msgstr "抱枕"
-
-######
-
-###### index
-
-msgid "Slogan_1"
-msgstr "用色彩豐厚生命，"
-
-msgid "Slogan_2"
-msgstr "用設計感動人心。"
-
-msgid "index_intro_1_title"
-msgstr "彩布印刷的最佳夥伴"
-
-msgid "index_intro_1_content"
-msgstr "30 年印刷經驗，精準完成每一次任務，<br>您的信賴是驅使我們不負所託的最大動力。"
-
-msgid "index_intro_2_title"
-msgstr "自有設計團隊與圖庫"
-
-msgid "index_intro_2_content"
-msgstr "為了滿足各種的需求，我們有強大的設計團隊，<br>從設計到生產，讓客戶完成一站式採購。"
-
-msgid "index_intro_3_title"
-msgstr "專業無水印花 無污染工業認證<br>業界一致認同的綠色工廠"
-
-msgid "index_intro_3_content"
-msgstr "通過政府的無汙染生產認證，於2009年起申請瑞士bluesign無污染工業認證，不管是水質汙染指標還是空氣汙染指標，富潤皆是每年符合標準的綠色工廠。"
-
-msgid "index_read_more"
-msgstr "了解更多"
-
-msgid "index_intro_4_title"
-msgstr "居家、飯店 家飾布裝飾<br>環保安全、獨家上色技術"
-
-msgid "index_intro_5_title"
-msgstr "綠色企業 永續經營"
-
-######
-
-###### tech_service
-
-msgid "service_title_1"
-msgstr "印刷中心(印刷組、轉印組)"
-
-msgid "service_content_1"
-msgstr "依據品牌客戶的需求用4原色染料調配出千萬種顏色的色彩、花樣轉印紙，再利用熱昇華原理將轉印紙上的設計花樣轉印到客戶胚布上完成一件色彩亮麗的作品。"
-
-msgid "service_title_2"
-msgstr "快速熱昇華轉印，胚布轉為亮麗色彩作品"
-
-msgid "service_content_2"
-msgstr "富潤於熱昇華轉印有超過 30 年的經驗，善於把色彩精準地轉印到胚布之上，由於品質穩定，因此得到許多廠商長期合作的信賴，我們也將此信賴當成是最好的回饋，日復一日，努力不懈！"
-
-msgid "service_title_3"
-msgstr "熱昇華技術"
-
-msgid "service_content_3"
-msgstr "熱昇華指的是熱昇華墨水經加熱達到特定溫度後，染料會由固態昇華為氣態，當溫度下降，染料又還原成固態，這時染料可以滲入轉印物品的表面，達到轉印的目的。<br><br>由於昇華的溫度很高，長期使用不會褪色，加工過程不會產生廢水，友善環境且安全。"
-
-msgid "service_title_4"
-msgstr "品質維護，信賴經驗與數據"
-
-msgid "service_content_4"
-msgstr "轉印是一門技術，也是一門藝術，掌握轉印的溫度/顏料/時間等因素，才能維護好產品的品質。我們累積了大量的經驗與數據，有自信能不斷完成客戶每一次的交付。<br><br>各式各樣的紡織品我們都有十足經驗，期待您 EMAIL 來信 或 加 LINE 詢問。"
-
-######
-
-###### products
-
-msgid "products_title"
+msgid "footer_Products"
 msgstr "家飾產品"
 
-######
+msgid "footer_certifications"
+msgstr "各項認證"
 
-###### products wall covering
+msgid "footer_design"
+msgstr "設聚數"
 
-msgid "case_1"
-msgstr "案例一：餐飲空間"
+###### 3 boxes
 
-msgid "case_2"
-msgstr "案例二：臥室環境"
+msgid "boxes_1_unit"
+msgstr "年"
 
-msgid "case_3"
-msgstr "案例三：兒童臥室"
+msgid "boxes_1_content"
+msgstr "富潤在熱昇華轉印技術純熟，擁有超過 30 年豐富的經驗。"
 
-msgid "case_4"
-msgstr "案例四：辦公環境"
+msgid "boxes_2_unit"
+msgstr "合作夥伴"
 
-msgid "case_5"
-msgstr "案例五：居家環境"
+msgid "boxes_2_content"
+msgstr "我們已經與眾多品牌公司合作多年，彼此建立了信任。"
 
-######
+msgid "boxes_3_unit"
+msgstr "自有設計"
 
-###### Shower Curtain
+msgid "boxes_3_content"
+msgstr "我們擁有超過10,000種現成產品設計，並且這個數字還在不斷增加！"
 
-msgid "demo_shower_curtain"
-msgstr "範例產品：浴簾"
+###### company_profile
 
-######
+msgid "company_profile_growth_title"
+msgstr "成長歷程"
 
-###### Wall Picture
+msgid "company_profile_growth_1991"
+msgstr "富潤公司成立"
 
-msgid "demo_typestry"
-msgstr "範例產品：掛布/掛畫"
+msgid "company_profile_growth_1997"
+msgstr "設計團隊成立"
 
-######
+msgid "company_profile_growth_2009"
+msgstr "瑞士 bluesign® 無污染工業認證"
 
-###### pillow
+msgid "company_profile_growth_2017"
+msgstr "公視「赢在地球村」節目<br>至公司專訪"
 
-msgid "demo_pillow"
-msgstr "範例產品：抱枕"
+msgid "company_profile_growth_2018"
+msgstr "輕裝潢自有品牌<br>「波麗壁布」成立"
 
-######
+msgid "company_profile_growth_2019"
+msgstr "OEKO-TEX認證"
+
+msgid "company_profile_growth_2020"
+msgstr "數位印刷工廠成立"
+
+msgid "company_profile_growth_2021"
+msgstr "GRS認證"
+
+msgid "company_profile_growth_future"
+msgstr "持續精進"
+
+###### certifications
+
+msgid "certifications_title"
+msgstr "認證"
+
+msgid "certifications_sub_title"
+msgstr "我們的環保生產認證"
+
+msgid "certifications_bluesign_content"
+msgstr "Bluesign®標準為紡織業提供了一個獨立的認可體系，考慮整個生產過程，最小化對環境的影響，保護人類健康，並增加競爭力和創新。"
+
+msgid "certifications_okeo_tex_content"
+msgstr "Oeko Tex品牌突顯了使用技術、流程和產品，以最小化環境影響，通過每年對符合國際紡織生態研究所定義的嚴格生態要求的驗證來完成。根據OEKO ‑ TEX® STANDARD 100，附錄4，適用於嬰兒的第I類物品進行的測試表明，符合當前由OEKO ‑ TEX® STANDARD 100，附錄4制定的人類生態要求。"
+
+msgid "certifications_global_recycle_content"
+msgstr "產品和流程認證：根據全球回收標準，它認證了由回收材料製成的產品和製造活動。它提升了由回收材料製成的產品的價值，尊重環境和社會標準，並擴展到生產鏈的所有階段。"
+
+msgid "certifications_vf_content"
+msgstr "VF認證的承諾明確指出，承包工廠必須在完全符合所有適用法律、規定和法規的情況下開展業務，並遵守我們的全球合規原則。"
+
+msgid "certifications_higg_content"
+msgstr "Higg指數是一種服裝和鞋類行業的自我評估標準，用於評估供應鏈中的環境和社會可持續性。它於2012年由Sustainable Apparel Coalition（SAC）推出，SAC是一個擁有270多個時尚品牌/零售商、製造商、學術機構、附屬機構、非政府組織和政府的非營利組織。"
 
 ###### about
 
@@ -212,15 +158,6 @@ msgstr "關於富潤家飾布"
 
 msgid "about_content_1"
 msgstr "富潤在色彩與設計到紡織成品的掌握，累計超過 30 年的專業經驗，以完整的設計師團隊，完成您對空間設計的構想。"
-
-msgid "about_tab_1"
-msgstr "公司簡介(成長故事)"
-
-msgid "about_tab_2"
-msgstr "經營理念"
-
-msgid "about_tab_3"
-msgstr "經營團隊"
 
 msgid "about_title_2"
 msgstr "30 年經驗累積，最高品質印花服務"
@@ -239,97 +176,3 @@ msgstr "注重設計色彩，自有設計師團隊"
 
 msgid "about_content_4"
 msgstr "富潤除了跟國際知名品牌合作外，今年更以「讓色彩與設計去世界旅行」的概念，完成便利輕薄，能寄送到各國協助生產的轉印紙，未來也希望藉由「設計與實務密切配合」創造更高的價值，故成立「設聚數」募集來自世界的好設計，讓每個人都能成為富潤的合作夥伴。"
-
-msgid "about_growth_title"
-msgstr "成長歷史"
-
-msgid "about_growth_2023"
-msgstr "家飾布 Full Color 品牌成立"
-
-msgid "about_growth_2020"
-msgstr "數位化工廠設置"
-
-msgid "about_growth_2018"
-msgstr "幸福空間輕裝修推出，波麗壁布發行"
-
-msgid "about_growth_2017"
-msgstr "台北建材展，推出新型壁布，適合居家、餐廳、飯店等場景應用。贏在地球村節目至公司專訪。"
-
-######
-
-###### values
-
-msgid "values_title_1"
-msgstr "經營理念"
-
-msgid "values_content_1"
-msgstr "用技術掌握色彩，用設計創造價值，用服務達成共贏。"
-
-msgid "values_title_2"
-msgstr "願景 Vision & 理念 Principle"
-
-msgid "values_title_3"
-msgstr "以色彩豐厚生命"
-
-msgid "values_content_3"
-msgstr "生活中充滿色彩，也因此我們存在，<br>把大自然令人驚嘆的顏色，帶到生命的角落，<br>讓每個人都能共享這份喜悅。"
-
-msgid "values_title_4"
-msgstr "用設計感動人心"
-
-msgid "values_content_4"
-msgstr "設計讓物品有了靈魂，<br>富潤是空間家飾布設計的專家，<br>致力於讓客戶的家飾空間充滿感動。"
-
-msgid "values_title_5"
-msgstr "服務精神，使命必達"
-
-msgid "values_content_5"
-msgstr "不論是彩色印花，空間設計，<br>我們必定以服務精神，努力達成客戶的要求，<br>為雙方創造共贏。"
-
-msgid "values_footer"
-msgstr "達成使命 Fulfilling The Mission"
-
-######
-
-###### team
-
-msgid "team_title_1"
-msgstr "經營團隊"
-
-msgid "team_content_1"
-msgstr "富潤的家長們"
-
-msgid "team_title_2"
-msgstr "總經理 黃尊霖"
-
-msgid "team_content_2"
-msgstr "將設計者的創意，配合時尚的色彩與紡織品做結合，<br>在居家空間中豐富主人的生活，是富潤公司做為一個合宜出版平台的職責與願望。"
-
-msgid "team_title_3"
-msgstr "印刷中心 副理 周金來"
-
-msgid "team_content_3"
-msgstr "由於染整工業必須消耗大量的水、與現今環保要求不符、同時也造成極大的成本負擔。以印代染是我們的核心技術目標之一、能有效的掌握布料上色狀態和色彩多樣化。"
-
-msgid "team_title_4"
-msgstr "設計部 副理 劉雅洳"
-
-msgid "team_content_4"
-msgstr "設計中心目前有約二十位設計人員，主要是協助客戶完成設計，並分析開版時易發生的問題，經過多年的經驗累積與不斷尋求更佳服務品質，我們成為國內布廠與品牌設計師信賴的夥伴；透過產學合作來募集校園新秀的設計稿並創立了設聚數圖庫讓更多人能夠看見更多的設計。"
-
-msgid "team_title_5"
-msgstr "數位印刷中心 副理 陳勝德"
-
-msgid "team_content_5"
-msgstr "數位印刷從設計、檔案校色、印刷可單機單人一貫作業。不需增加版材成本及工時，也無須擔心開版後卻未再使用，形成庫存的壓力， 在印刷的整個生命周期中，均不對環境產生污染，為未來樹立節能減排和低碳經濟的綠色印刷。"
-
-msgid "team_title_6"
-msgstr "室內用紡織品發行 副理 柯力中"
-
-msgid "team_content_6"
-msgstr "紡織品為人類生活所必需，我們期許自己用職人的精神打造高品質的室內用紡織品， 讓使用者可以更放鬆地享受到更溫馨/舒適的室內空間，若有任何室內用紡織品的需求，請務必與我們聯絡。"
-
-msgid "team_footer"
-msgstr "團隊合作，迎接挑戰 Team Work"
-
-######
