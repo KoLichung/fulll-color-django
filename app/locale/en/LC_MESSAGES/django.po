@@ -77,11 +77,20 @@ msgid "footer_design"
 msgstr "Designs"
 
 ###### 3 boxes
+msgid "boxes_1_unit"
+msgstr "year"
+
 msgid "boxes_1_content"
 msgstr "Full Color has great experience in sublimation heat transfer printing."
 
+msgid "boxes_2_unit"
+msgstr "partners"
+
 msgid "boxes_2_content"
 msgstr "Work well with lots of companies and have developed trust with each other."
+
+msgid "boxes_3_unit"
+msgstr "in-house designs"
 
 msgid "boxes_3_content"
 msgstr "We have more than 10,000 product-ready designs and the number is continuously increased."

@@ -2,15 +2,35 @@
 {% load static %}
 {% load i18n %}
 
-
 <!-- for screen smaller than 540px -->
-<div style="position: relative;" class="d-sm-none">
+<!-- <div style="position: relative;" class="d-sm-none">
     <img class="d-block" style='width: 100%; object-fit: cover;' src="{% static 'web/assets/img/index_2/new/main_pic_small.jpg' %}" alt="First slide" />
-</div>
+</div> -->
 
 <!-- for screen bigger than 540px -->
-<div class="d-none d-sm-block">
+<!-- <div class="d-none d-sm-block">
     <img class="d-block mx-auto" style='width: 100%; object-fit: cover; max-width: 1780px;' src="{% static 'web/assets/img/index_2/new/main_pic.jpg' %}" alt="First slide" />
+</div> -->
+
+<style>
+    video {
+        min-width: 100%;
+        min-height: 100%;
+        /* width: auto; */
+        height: auto;
+    }
+</style>
+
+<div class="d-sm-none" style="margin-top: 50px;">
+    <video width=100% autoplay muted>
+        <source src="{% static 'web/assets/video/full-color-video-small.mp4' %}" type="video/mp4">
+    </video>
+</div>
+
+<div class="d-none d-sm-block" style="margin-top: 50px;">
+    <video width=100% autoplay muted>
+        <source src="{% static 'web/assets/video/full-color-video.mp4' %}" type="video/mp4">
+    </video>
 </div>
 
 <!-- 3 boxes -->
