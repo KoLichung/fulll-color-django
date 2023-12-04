@@ -140,6 +140,43 @@ msgstr "GRS Certification"
 msgid "company_profile_growth_future"
 msgstr "Continuous Improvement"
 
+###### Our Tech
+
+msgid "our_tech_title"
+msgstr "Our Technologies"
+
+msgid "our_tech_sub_title"
+msgstr "Digital Sublimation Printing"
+
+msgid "our_tech_content_1"
+msgstr "Strike-off"
+
+msgid "our_tech_content_2"
+msgstr "Print on Paper"
+
+msgid "our_tech_content_3"
+msgstr "Transfer to Fabric"
+
+###### Our Service
+
+msgid "our_service_title"
+msgstr "Our Service"
+
+msgid "our_service_content_1"
+msgstr "Customize Your Exclusive Color"
+
+msgid "our_service_content_2"
+msgstr "Free consultation & design suggestions"
+
+msgid "our_service_content_3"
+msgstr "Professional image processing"
+
+msgid "our_service_content_4"
+msgstr "Digital sublimation printing"
+
+msgid "our_service_content_5"
+msgstr "Color fastness test for light/rubbing/migration/washing"
+
 ###### certifications
 
 msgid "certifications_title"
@@ -205,3 +242,4 @@ msgstr "Print Fabric"
 
 msgid "upholstery_fabric"
 msgstr "Upholstery Fabric"
+

@@ -108,22 +108,22 @@
 <!-- Our Tech Section -->
 <div class="our-tech">
     <div class="container" style="max-width: 1280px; padding-top: 40px; padding-left: 20px; position: relative; color: black; font-size: 1.5em;">
-        <strong>Our Technology</strong>
+        <strong>{% trans "our_tech_title" %}</strong>
     </div>
     <img src="{% static 'web/assets/img/index_2/new/our-tech.jpg' %}" alt="Technology Image" class="tech-image d-none d-sm-block">
     <img src="{% static 'web/assets/img/index_2/new/our-tech-small.jpg' %}" alt="Technology Image" class="tech-image d-sm-none">
     
     <div class="container" style="padding-top: 0px; padding-left: 20px; position: relative; color: black; font-size: 1.2em; max-width: 1280px;">
-        <div>Digital Sublimation Printing</div>
+        <div>{% trans "our_tech_sub_title" %}</div>
         <div class="div-with-vertical-line">
             <div class="verticalLine">
-                Strike_off
+                {% trans "our_tech_content_1" %}
             </div>
             <div class="verticalLine">
-                Print on Paper
+                {% trans "our_tech_content_2" %}
             </div>
             <div class="verticalLine">
-                Transfer to Fabric
+                {% trans "our_tech_content_3" %}
             </div>
         </div>
         <br>
@@ -134,7 +134,7 @@
 <!-- Our Service Section -->
 <div>
     <div class="container" style="max-width: 1280px; padding-top: 40px; padding-left: 20px; position: relative; font-size: 1.5em;">
-        <strong>Our Service</strong>
+        <strong>{% trans "our_service_title" %}</strong>
     </div>
 
     <img src="{% static 'web/assets/img/index_2/new/our-service.jpg' %}" alt="Service Image" class="tech-image d-none d-sm-block">
@@ -143,16 +143,19 @@
     <div class="container" style="padding-top: 20px; padding-left: 20px; position: relative; font-size: 1.1em;max-width: 1280px;">
         <div class="div-with-vertical-line">
             <div class="verticalLine-white">
-                Free consultation & desian suggestions
+                {% trans "our_service_content_1" %}
             </div>
             <div class="verticalLine-white">
-                Professional Image processina
+                {% trans "our_service_content_2" %}
             </div>
             <div class="verticalLine-white">
-                Digital / Rotogravure sublimation printina
+                {% trans "our_service_content_3" %}
             </div>
             <div class="verticalLine-white">
-                Color fastness test for light/rubbing/miaration/wash
+                {% trans "our_service_content_4" %}
+            </div>
+            <div class="verticalLine-white">
+                {% trans "our_service_content_5" %}
             </div>
         </div>
         <br>

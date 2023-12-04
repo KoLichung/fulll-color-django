@@ -141,6 +141,43 @@ msgstr "GRS認證"
 msgid "company_profile_growth_future"
 msgstr "持續精進"
 
+###### 我們的技術
+
+msgid "our_tech_title"
+msgstr "我們的技術"
+
+msgid "our_tech_sub_title"
+msgstr "數位熱昇華轉印"
+
+msgid "our_tech_content_1"
+msgstr "分色與打樣"
+
+msgid "our_tech_content_2"
+msgstr "印刷至塗佈紙上"
+
+msgid "our_tech_content_3"
+msgstr "熱轉印至布料"
+
+###### Our Service
+
+msgid "our_service_title"
+msgstr "我們的服務"
+
+msgid "our_service_content_1"
+msgstr "客製化您的專屬顏色"
+
+msgid "our_service_content_2"
+msgstr "免費諮詢&設計建議"
+
+msgid "our_service_content_3"
+msgstr "專業圖片處理"
+
+msgid "our_service_content_4"
+msgstr "數位熱昇華轉印"
+
+msgid "our_service_content_5"
+msgstr "色彩的 光/摩擦/轉移/水洗 牢度測試"
+
 ###### certifications
 
 msgid "certifications_title"
