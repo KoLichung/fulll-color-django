@@ -96,6 +96,19 @@ msgstr "自有設計"
 msgid "boxes_3_content"
 msgstr "我們擁有超過10,000種現成產品設計，並且這個數字還在不斷增加！"
 
+##### Our Profile
+msgid "our_profile_title"
+msgstr "公司簡介"
+
+msgid "our_profile_content_1"
+msgstr "富潤公司 成立於1991年，是亞洲領先的專業非水染印刷轉印公司。"
+
+msgid "our_profile_content_2"
+msgstr "我們優先考慮每一次印刷的質量，對每一個細節都予以精心關注，以確保每次交付都超出客戶的期望。"
+
+msgid "our_profile_content_3"
+msgstr "我們龐大的客戶群是我們持續增長和繁榮的基石。"
+
 ###### company_profile
 
 msgid "company_profile_growth_title"
@@ -176,3 +189,20 @@ msgstr "注重設計色彩，自有設計師團隊"
 
 msgid "about_content_4"
 msgstr "富潤除了跟國際知名品牌合作外，今年更以「讓色彩與設計去世界旅行」的概念，完成便利輕薄，能寄送到各國協助生產的轉印紙，未來也希望藉由「設計與實務密切配合」創造更高的價值，故成立「設聚數」募集來自世界的好設計，讓每個人都能成為富潤的合作夥伴。"
+
+##### products_v2
+
+msgid "products_title"
+msgstr "家飾產品"
+
+msgid "products_sub_title"
+msgstr "我們足以自豪的產品"
+
+msgid "print_fabric"
+msgstr "印花布"
+
+msgid "plain_fabric"
+msgstr "素色布"
+
+msgid "upholstery_fabric"
+msgstr "沙發布"

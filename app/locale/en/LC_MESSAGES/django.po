@@ -86,6 +86,19 @@ msgstr "Work well with lots of companies and have developed trust with each othe
 msgid "boxes_3_content"
 msgstr "We have more than 10,000 product-ready designs and the number is continuously increased."
 
+##### Our Profile
+msgid "our_profile_title"
+msgstr "Our Profile"
+
+msgid "our_profile_content_1"
+msgstr "Full Color Company, established in 1991, is the leading professional non-water sublimation transfer printing company in Asia."
+
+msgid "our_profile_content_2"
+msgstr "We prioritize the quality of each print, paying meticulous attention to every detail to ensure that each delivery exceeds our customer's expectations."
+
+msgid "our_profile_content_3"
+msgstr "Our extensive customer base is the foundation of our continuous growth and prosperity."
+
 ###### company_profile
 
 msgid "company_profile_growth_title"
@@ -166,3 +179,20 @@ msgstr "Emphasizing Design and Color, with an In-House Design Team"
 
 msgid "about_content_4"
 msgstr "In addition to collaborations with internationally renowned brands, Furun has embarked on a concept of 'letting color and design travel the world' this year. We have created transfer paper that is convenient and lightweight, which can be sent to various countries for production assistance. In the future, we hope to create higher value through 'close collaboration between design and practice.' This is why we have established 'Design Gathering' to collect good designs from around the world, allowing everyone to become a partner of Furun."
+
+##### products_v2
+
+msgid "products_title"
+msgstr "Products"
+
+msgid "products_sub_title"
+msgstr "Our Proud Products"
+
+msgid "print_fabric"
+msgstr "Print Fabric"
+
+msgid "plain_fabric"
+msgstr "Print Fabric"
+
+msgid "upholstery_fabric"
+msgstr "Upholstery Fabric"
