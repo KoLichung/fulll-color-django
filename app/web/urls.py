@@ -2,12 +2,23 @@ from django.urls import path, include
 from . import views
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.contrib.sitemaps.views import sitemap
+from .sitemaps import StaticViewSitemap
+
+sitemaps = {
+    'static': StaticViewSitemap,
+}
 
 urlpatterns = [
     path('', views.index_2, name='index_2'),
     path('certifications', views.certifications, name='certifications'),
     path('company_profile', views.company_profile, name='company_profile'),
     path('products_v2', views.products_v2, name='products_v2'),
+
+    path('sitemap.xml', sitemap, 
+        {'sitemaps': sitemaps},
+        name='django.contrib.sitemaps.views.sitemap'
+    ),
 
     # path('index', views.index, name='index'),
     # path('tech_service', views.tech_service, name='tech_service'),
