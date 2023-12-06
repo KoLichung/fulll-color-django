@@ -8,8 +8,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name = "viewport", content= "width = device-width, initial-scale = 1" >
   <meta name = "robots" content = "index, follow">
-  <meta name = "description" content="">
-  
+  {% block extra_meta %}{% endblock %}
+
   <title>{% trans "footer_company" %}</title>
   <!-- favicon -->
   <link rel="icon" type="image/x-icon" href="{% static 'web/assets/img/favicon.ico' %}">

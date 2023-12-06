@@ -1,6 +1,11 @@
+{% load i18n %}
+{% block extra_meta %}
+    <!-- Additional meta tags specific to index.html go here -->
+    <meta name="description" content="{% trans 'our_profile_content_1' %}">
+{% endblock %}
+
 {% extends 'web/base_2.html' %} {% block content %}
 {% load static %}
-{% load i18n %}
 
 <!-- for screen smaller than 540px -->
 <!-- <div style="position: relative;" class="d-sm-none">
