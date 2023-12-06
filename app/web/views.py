@@ -14,6 +14,9 @@ def company_profile(request):
 def products_v2(request):
     return render(request,'web/products_v2.html')
 
+def redirect_to_about(request):
+    return redirect('about')
+
 # ============ Version 1 ==================
 
 def index(request):
