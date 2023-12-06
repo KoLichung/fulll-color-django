@@ -249,3 +249,8 @@ msgstr "素色布"
 
 msgid "upholstery_fabric"
 msgstr "沙發布"
+
+######## read more
+
+msgid "read_more"
+msgstr "了解更多"

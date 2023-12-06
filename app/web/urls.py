@@ -12,8 +12,8 @@ sitemaps = {
 urlpatterns = [
     path('', views.index_2, name='index_2'),
     path('certifications', views.certifications, name='certifications'),
-    path('company_profile', views.company_profile, name='company_profile'),
-    path('products_v2', views.products_v2, name='products_v2'),
+    path('about', views.company_profile, name='about'),
+    path('products', views.products_v2, name='products'),
 
     path('sitemap.xml', sitemap, 
         {'sitemaps': sitemaps},

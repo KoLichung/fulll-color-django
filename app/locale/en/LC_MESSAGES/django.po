@@ -249,3 +249,7 @@ msgstr "Print Fabric"
 msgid "upholstery_fabric"
 msgstr "Upholstery Fabric"
 
+######## read more
+
+msgid "read_more"
+msgstr "Read More"

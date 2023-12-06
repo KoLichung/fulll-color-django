@@ -45,13 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'company_profile' %}">{% trans "nav_about" %}</a>
+              <a class="nav-link" href="{% url 'about' %}">{% trans "nav_about" %}</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{% url 'certifications' %}">{% trans "nav_certifications" %}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'products_v2' %}">{% trans "nav_products" %}</a>
+                <a class="nav-link" href="{% url 'products' %}">{% trans "nav_products" %}</a>
               </li>
             <li class="nav-item">
               <a class="nav-link" href="http://design.full-color.com.tw/" target="_blank">{% trans "nav_design" %}</a>
@@ -118,9 +118,9 @@
             <div class="row justify-content-md-center justify-content-start">
                 <div class="col-6 col-md-6 col-lg-6">
                     <div><b>{% trans "footer_sitemap" %}</b></div>
-                    <div><a href="{% url 'company_profile' %}" style="color: white;">{% trans "nav_about" %}</a></div>
+                    <div><a href="{% url 'about' %}" style="color: white;">{% trans "nav_about" %}</a></div>
                     <div><a href="{% url 'certifications' %}" style="color: white;">{% trans "nav_certifications" %}</a></div>
-                    <div><a href="{% url 'products_v2' %}" style="color: white;">{% trans "nav_products" %}</a></div>
+                    <div><a href="{% url 'products' %}" style="color: white;">{% trans "nav_products" %}</a></div>
                     <div><a href="http://design.full-color.com.tw/" target="_blank" style="color: white;">{% trans "footer_design" %}</a></div>
                 </div>
             </div>
