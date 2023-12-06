@@ -207,6 +207,9 @@ msgstr "VF認證的承諾明確指出，承包工廠必須在完全符合所有�
 msgid "certifications_higg_content"
 msgstr "Higg指數是一種服裝和鞋類行業的自我評估標準，用於評估供應鏈中的環境和社會可持續性。它於2012年由Sustainable Apparel Coalition（SAC）推出，SAC是一個擁有270多個時尚品牌/零售商、製造商、學術機構、附屬機構、非政府組織和政府的非營利組織。"
 
+msgid "certifications_bsi_co2"
+msgstr "英國政府承諾在 2050 年將英國溫室氣體排放總量減少 60%，測量和通報組織的碳足跡正成為當務之急。 bsi.co2 機構提供可信度的基礎，讓內部和外部利害關係人放心，足以證實該組織的碳足跡是準確、完整且符合主要標準的。"
+
 ###### about
 
 msgid "about_title_1"

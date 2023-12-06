@@ -206,6 +206,9 @@ msgstr "VF certification are terms of Engagement make it clear that contracted f
 msgid "certifications_higg_content"
 msgstr "The Higg Index is an apparel and footwear industry self-assessment standard to rate environment and social sustainability throughout the supply chain. It was launched in 2012 by Sustainable Apparel Coalition (SAC), a nonprofit organization of more than 270 fashion brands/retailers, manufacturers, academic institutions, affiliates, NGOs and governments."
 
+msgid "certifications_bsi_co2"
+msgstr "With the UK government committed to reducing the UK's total greenhouse gas emissions by 60% by 2050, measuring and reporting an organization's carbon footprint is becoming a priority. bsi.co2 is fundamental to provide credibility, reassuring internal and external stakeholders that the carbon footprint of your organization is accurate, complete and compliant with the major standards."
+
 ##### about
 
 msgid "about_title_1"
