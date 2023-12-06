@@ -182,7 +182,7 @@ msgid "our_service_content_4"
 msgstr "數位熱昇華轉印"
 
 msgid "our_service_content_5"
-msgstr "色彩的 光牢度/摩擦牢度/水洗牢度/疑染 測試"
+msgstr "色彩的 光牢度/摩擦牢度/水洗牢度/移染 測試"
 
 ###### certifications
 
