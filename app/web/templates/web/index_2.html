@@ -1,10 +1,12 @@
+{% extends 'web/base_2.html' %} 
+
 {% load i18n %}
 {% block extra_meta %}
     <!-- Additional meta tags specific to index.html go here -->
     <meta name="description" content="{% trans 'our_profile_content_1' %}">
 {% endblock %}
 
-{% extends 'web/base_2.html' %} {% block content %}
+{% block content %}
 {% load static %}
 
 <!-- for screen smaller than 540px -->
