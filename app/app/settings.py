@@ -29,6 +29,8 @@ ALLOWED_HOSTS = [
     '45.32.102.218',
     '127.0.0.1',
     'localhost',
+    'www.full-color.com.tw',
+    'full-color.com.tw',
 ]
 
 ADMINS = (
