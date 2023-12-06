@@ -101,13 +101,13 @@ msgid "our_profile_title"
 msgstr "公司簡介"
 
 msgid "our_profile_content_1"
-msgstr "富潤公司 成立於1991年，是亞洲領先的專業非水染印刷轉印公司。"
+msgstr "富潤股份有限公司 成立於1991年，是亞洲領先的專業非水染印刷轉印公司。"
 
 msgid "our_profile_content_2"
-msgstr "我們優先考慮每一次印刷的質量，對每一個細節都予以精心關注，以確保每次交付都超出客戶的期望。"
+msgstr "我們會優先考慮每一次印刷的質量，並對每一個細節都予以精心關注，以確保每次交付都超出客戶的期望。"
 
 msgid "our_profile_content_3"
-msgstr "我們龐大的客戶群是我們持續增長和繁榮的基石。"
+msgstr "客戶的信任是我們持續增長和繁榮的基石。"
 
 ###### company_profile
 
@@ -176,7 +176,7 @@ msgid "our_service_content_4"
 msgstr "數位熱昇華轉印"
 
 msgid "our_service_content_5"
-msgstr "色彩的 光/摩擦/轉移/水洗 牢度測試"
+msgstr "色彩的 光牢度/摩擦牢度/水洗牢度/疑染 測試"
 
 ###### certifications
 
