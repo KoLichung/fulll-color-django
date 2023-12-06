@@ -111,6 +111,12 @@ msgstr "客戶的信任是我們持續增長和繁榮的基石。"
 
 ###### company_profile
 
+msgid "company_profile_title"
+msgstr "關於富潤"
+
+msgid "company_profile_sub_title"
+msgstr "超過 30 年的經驗與歷練"
+
 msgid "company_profile_growth_title"
 msgstr "成長歷程"
 

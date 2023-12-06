@@ -110,6 +110,12 @@ msgstr "Our extensive customer base is the foundation of our continuous growth a
 
 ###### company_profile
 
+msgid "company_profile_title"
+msgstr "About Full Color"
+
+msgid "company_profile_sub_title"
+msgstr "Our Over 30 Years History"
+
 msgid "company_profile_growth_title"
 msgstr "Company Growth Journey"
 
