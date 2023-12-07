@@ -244,10 +244,10 @@ msgid "products_sub_title"
 msgstr "Our Proud Products"
 
 msgid "print_fabric"
-msgstr "Plain Fabric"
+msgstr "Print Fabric"
 
 msgid "plain_fabric"
-msgstr "Print Fabric"
+msgstr "Plain Fabric"
 
 msgid "upholstery_fabric"
 msgstr "Upholstery Fabric"
